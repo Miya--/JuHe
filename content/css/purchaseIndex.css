@@ -509,17 +509,15 @@
 }
 .center .pro-list-wrap {
   margin-top: 20px;
-  border-left: 1px solid #dfdfdf;
 }
 .center .pro-list-wrap ul li {
   position: relative;
   margin-top: -1px;
-  width: 288.76px;
+  margin-left: -1px;
+  width: 289px;
   float: left;
   padding: 5px 10px;
-  border-bottom: 1px solid #dfdfdf;
-  border-right: 1px solid #dfdfdf;
-  border-top: 1px solid #dfdfdf;
+  border: 1px solid #dfdfdf;
 }
 .center .pro-list-wrap ul li .pro-img {
   display: block;
