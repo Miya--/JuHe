@@ -28,17 +28,17 @@
   margin: 22px auto;
   clear: both;
 }
-.center ul {
+.center ul.form-cont {
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 70px;
   margin-bottom: 10px;
 }
-.center ul li {
+.center ul.form-cont li {
   clear: both;
   overflow: hidden;
   margin-bottom: 15px;
 }
-.center ul li .left-tit {
+.center ul.form-cont li .left-tit {
   float: left;
   text-align: left;
   width: 110px;
@@ -46,10 +46,10 @@
   font-size: 14px;
   line-height: 35px;
 }
-.center ul li .center-cont {
+.center ul.form-cont li .center-cont {
   float: left;
 }
-.center ul li .right-tip {
+.center ul.form-cont li .right-tip {
   float: left;
 }
 .center .tip-txt {
@@ -109,4 +109,10 @@
   top: 13px;
   right: 20px;
   background: url(../images/icon-pwd.png) no-repeat;
+}
+.center .dropdown {
+  margin-right: 20px;
+}
+.center .city-drop .combo-box {
+  left: 434px;
 }

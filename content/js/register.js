@@ -25,4 +25,8 @@ $(function(){
         }
         InterValObj = window.setInterval(SetRemainTime, 1000);
     }
+
+    // 下拉框初始化
+    $('#selectPro').select();
+    $('#selectCity').select();
 });

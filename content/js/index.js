@@ -147,10 +147,12 @@ function hoverStepFloor(index, width, html){
     var tmpTime;
     $('#floorStep'+index).hover(function(){
         tmpTime = setTimeout(function(){
+            $('#floorStep'+index).css('border-color', '#123457');
             $('#floorStep'+index).animate({width:width},300,function(){}).html(html);
         },200);
     },function(){
         clearTimeout(tmpTime);
+        $('#floorStep'+index).css('border-color', '#dfdfdf');
         $(this).animate({width:38},0.1,function(){}).html(index+'F');
     });
 }

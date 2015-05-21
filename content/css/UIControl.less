@@ -65,18 +65,18 @@
 }
 
 /* 下拉框 */
-.combo-box{ position: relative;color: #292929; overflow: hidden; zoom:100%; 
-    .combo-box-top{ padding: 0 4px; font-size: 14px;line-height: 33px; cursor: pointer; color: #292929;}
+.combo-box{ position: absolute;color: #a0a0a0; overflow: hidden; zoom:100%; border:1px solid #e5e5e5;
+    .combo-box-top{ padding: 0 4px; font-size: 14px;line-height: 33px; cursor: pointer; color: #a0a0a0;}
     .fir-txt{ text-align: left;}
     .down-mark{ float: right; display: block; height: 33px; width: 9px; margin-left: 12px; background: url('../images/arrow-down.png') no-repeat center center;}
-    ul{ display: none; position: relative; max-height: 200px!important; height: auto!important; border: 1px solid #A4A9AD; border-top: none; overflow: auto; background: #fff; margin-bottom: 100px;
-        li{ float: none!important; height: 30px; padding: 0 4px; line-height: 30px!important;font-size: 14px; margin: 0!important; text-align: left; }
-        li:hover{ background: #2380c0; color: #fff; cursor: pointer;-moz-opacity:0.8;opacity: 0.8;filter: ~"alpha(opacity = 80)";}
+    ul{ display: none;border-top: 1px solid #e5e5e5; position: relative; max-height: 200px!important; height: auto!important;  overflow: auto; background: #fff;
+        li{  float: none!important; height: 30px; padding: 0 4px; line-height: 30px!important;font-size: 14px; margin: 0!important; text-align: left; }
+        li:hover{ background: #e69b02; color: #fff; cursor: pointer;-moz-opacity:0.8;opacity: 0.8;filter: ~"alpha(opacity = 80)";}
     }
 }
 
 /* 复选框 单选框 */   
-label{display: block;cursor: pointer;line-height: 26px;min-width: 19px;height: 20px;float: left;}
+label{display: block;cursor: pointer;line-height: 26px;min-width: 19px;height: 20px;float: left; color: #a0a0a0;}
 .radios{padding-top: 18px;border-top: 1px solid #049CDB;}
 .label_check input, .label_radio input{margin-right: 5px;}
 .label_radio, .label_check{background: #fff url(../images/radioCheck2.png) no-repeat;}

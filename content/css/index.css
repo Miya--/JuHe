@@ -234,7 +234,7 @@
   height: 505px;
   left: 236px;
   top: -1px;
-  z-index: 1;
+  z-index: 202;
   border-top: 1px solid #123457;
   background: #f6f6f6;
 }
@@ -284,7 +284,6 @@
 }
 .center .nav-wrap .left-menu-wrap .content ul .inner-wrap .right-shop .pro-hot {
   width: 167px;
-  height: 150px;
 }
 .center .nav-wrap .left-menu-wrap .content ul .inner-wrap .right-shop .pro-hot a {
   display: block;
@@ -310,7 +309,7 @@
   float: right;
   clear: both;
   margin-right: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 19px;
   margin-top: -2px;
 }
 .center .nav-wrap .left-menu-wrap .content ul .inner-wrap .right-shop a:hover {
@@ -727,10 +726,15 @@
   font-size: 18px;
   font-family: "Arial";
 }
-.center .floor-cont .floor-tab-cont ul li p .order-per {
+.center .floor-cont .floor-tab-cont ul li .order-per {
   float: right;
+  font-size: 12px;
+  overflow: hidden;
+  color: #a0a0a0;
+  line-height: 22px;
+  font-family: "SimSun";
 }
-.center .floor-cont .floor-tab-cont ul li p .order-per i {
+.center .floor-cont .floor-tab-cont ul li .order-per i {
   font-style: normal;
   color: #383838;
   font-size: 14px;
@@ -738,6 +742,7 @@
 }
 .center .floor-cont .floor-tab-cont ul li p.time-last {
   color: #6d6d6d;
+  float: left;
 }
 .center .floor-cont .floor-tab-cont ul li a.shopname {
   font-size: 12px;

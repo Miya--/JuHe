@@ -39,7 +39,7 @@
     <!--中间部分-->
     <div class="center">
         <form id="form1" action="" method="post">
-            <ul>
+            <ul class="form-cont">
                 <li>
                     <div class="left-tit">注册类型：</div>
                     <div class="center-cont">
@@ -100,6 +100,42 @@
                         <span class="tip-txt f-l">(请输入您真实的企业名称，方便我们后期的服务)</span>
                     </div>
                     <div class="right-tip"></div>
+                </li>
+                <li>
+                    <div class="left-tit">所属区域：</div>
+                    <div class="center-cont">
+                        <select class="combo-box" id="selectPro" width="239">
+                            <option value="">请选择省份</option> 
+                            <option value="1">江苏省</option> 
+                            <option value="2">安徽省</option> 
+                            <option value="3">山东省</option> 
+                        </select>
+                        <div class="city-drop">
+                            <select class="combo-box" id="selectCity" width="239">
+                                <option value="">请选择城市</option> 
+                                <option value="1">南京市</option> 
+                                <option value="2">无锡市</option> 
+                                <option value="3">常州市</option> 
+                            </select>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="left-tit">配套厂家：</div>
+                    <div class="center-cont">
+                        <label for="checkbox-01" class="label_check withTxt" style="margin-right:20px; margin-top:10px;"> 
+                        <input type="checkbox" value="1" id="checkbox-01" name="sample-checkbox-01" /> 
+                            学校
+                        </label> 
+                        <label for="checkbox-02" class="label_check withTxt" style="margin-right:20px; margin-top:10px;"> 
+                            <input type="checkbox" value="1" id="checkbox-02" name="sample-checkbox-02" /> 
+                            银行
+                        </label>
+                        <label for="checkbox-03" class="label_check withTxt" style="margin-top:10px;"> 
+                            <input type="checkbox" value="1" id="checkbox-03" name="sample-checkbox-03" /> 
+                            酒店
+                        </label>
+                    </div>
                 </li>
                 <li>
                     <div class="left-tit">服务条款：</div>

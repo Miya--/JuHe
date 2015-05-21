@@ -2,7 +2,7 @@
     .top-nav-wrap{ padding: 0;}
 }
 .header{ width: 1240px; margin: 0 auto; padding: 13px 0;
-	.logo-wrap{ float: left;
+    .logo-wrap{ float: left;
         .logo{ display: block; width: 172px; height: 65px; float: left; background: url(../images/logo2.png) no-repeat; }
         .logo-tip{width: 123px; height: 34px; margin:23px 0 0 23px; float: left; background: url(../images/logo2-right.png) no-repeat;}
     }
@@ -57,7 +57,7 @@
                         span.menu-icon12{ background-position: 0 -395px;}
                         span.menu-icon13{ background-position: 0 -434px;}
                     }
-                    .inner-wrap{ display: none; position: absolute; width: 383px; height: 505px; left: 236px; top: -1px; z-index: 1; border-top:1px solid #123457;background: #f6f6f6;
+                    .inner-wrap{ display: none; position: absolute; width: 383px; height: 505px; left: 236px; top: -1px; z-index: 202; border-top:1px solid #123457;background: #f6f6f6;
                             ul{ float: left;
                                 li{ padding-left: 15px; cursor: default;
                                     a{ color: #696969; font-size: 12px; font-weight: normal; line-height: 40px;}
@@ -69,12 +69,12 @@
                                 a{ display: block; float: left; width: 63px; height: 20px; padding: 10px; margin-right: 1px; margin-bottom: 1px; background: #ededed;
                                     img{ display: block; width: 55px;}
                                 }
-                                .pro-hot{ width: 167px; height: 150px;
+                                .pro-hot{ width: 167px;
                                     a{ display: block; width: 100%; height: auto; padding: 0;
                                         p{ line-height: 18px;}
                                         p.blue{ color: #1a426b; font-size: 14px; margin-top: 12px; margin-left: 10px;}
                                         p.grey{ color: #868686; font-size: 12px; margin-left: 10px;}
-                                        img{ float: right; clear: both; margin-right: 15px; margin-bottom: 25px; margin-top: -2px;}
+                                        img{ float: right; clear: both; margin-right: 15px; margin-bottom: 19px; margin-top: -2px;}
                                     }
                                 }
                                 a:hover{ background: #e1dcdc;}
@@ -221,11 +221,12 @@
                         .price{ float: left;
                             i{ font-style: normal; color:#e22222; font-size: 18px; font-family: "Arial"}
                         }
-                        .order-per{ float: right;
-                            i{ font-style: normal; color: #383838; font-size: 14px;font-family: "Arial"}
-                        }
+                        
                     }
-                    p.time-last{ color: #6d6d6d;}
+                    .order-per{ float: right;font-size: 12px; overflow: hidden; color: #a0a0a0; line-height: 22px; font-family: "SimSun";
+                        i{ font-style: normal; color: #383838; font-size: 14px;font-family: "Arial"}
+                    }
+                    p.time-last{ color: #6d6d6d; float: left;}
                     a.shopname{font-size: 12px; overflow: hidden; color: #a0a0a0; line-height: 26px;}
                     a.shopname:hover{color: #e69b02;}
                 }
@@ -235,7 +236,7 @@
     }
 
     .floor3 .floor-tab-cont{ border-left:0; border-right: 0; border-bottom: 0;}
-    .case-show-list{
+    .case-show-list{        
         .case-show-row1, .case-show-row2{
             .imgbox{ margin: 0 4px 4px 0;width: 307px; height: 282px; float: left; position: relative; z-index: 1; overflow: hidden;
                 a{ display: block;
