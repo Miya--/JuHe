@@ -75,7 +75,7 @@
     }
 }
 
-/*================ 复选框 单选框 */   
+/* 复选框 单选框 */   
 label{display: block;cursor: pointer;line-height: 26px;min-width: 19px;height: 20px;float: left;}
 .radios{padding-top: 18px;border-top: 1px solid #049CDB;}
 .label_check input, .label_radio input{margin-right: 5px;}
@@ -90,3 +90,13 @@ label.r_on{background-position: 0 -62px;}
 /* 文本框 */
 .input-txt{ border:1px solid #e5e5e5; height: 35px; line-height: 35px; padding: 2px 15px; outline: none; color: #a0a0a0; font-size: 14px;}
 
+/* 分页 */
+.page-nav{ text-align: center;
+    a{ display: inline-block; margin:0 7.5px; width: 36px; overflow: hidden; height: 36px; line-height: 36px;text-align: center; font-size: 14px; color: #616161; background: #f2f2f2;}
+    a:hover, a.prev-page:hover, a.next-page:hover{ background-color: #d6d4d4;}
+    a.active{ background: #3e3e3e; color: #fff; cursor: default;}
+    a.active:hover{background-color: #3e3e3e; }
+    a.prev-page{ text-indent: 40px; background:#f2f2f2 url(../images/arrow-left3.png) no-repeat center center;}
+    a.next-page{ text-indent: 40px; background:#f2f2f2 url(../images/arrow-right5.png) no-repeat center center;}
+    span{display: inline-block; margin:0; overflow: hidden; height: 36px; line-height: 36px;}
+}

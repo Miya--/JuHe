@@ -295,7 +295,7 @@
   opacity: 0.8;
   filter: alpha(opacity = 80);
 }
-/*================ 复选框 单选框 */
+/* 复选框 单选框 */
 label {
   display: block;
   cursor: pointer;
@@ -346,4 +346,48 @@ label.r_on {
   outline: none;
   color: #a0a0a0;
   font-size: 14px;
+}
+/* 分页 */
+.page-nav {
+  text-align: center;
+}
+.page-nav a {
+  display: inline-block;
+  margin: 0 7.5px;
+  width: 36px;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  color: #616161;
+  background: #f2f2f2;
+}
+.page-nav a:hover,
+.page-nav a.prev-page:hover,
+.page-nav a.next-page:hover {
+  background-color: #d6d4d4;
+}
+.page-nav a.active {
+  background: #3e3e3e;
+  color: #fff;
+  cursor: default;
+}
+.page-nav a.active:hover {
+  background-color: #3e3e3e;
+}
+.page-nav a.prev-page {
+  text-indent: 40px;
+  background: #f2f2f2 url(../images/arrow-left3.png) no-repeat center center;
+}
+.page-nav a.next-page {
+  text-indent: 40px;
+  background: #f2f2f2 url(../images/arrow-right5.png) no-repeat center center;
+}
+.page-nav span {
+  display: inline-block;
+  margin: 0;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
 }
