@@ -459,8 +459,15 @@
   color: #fff;
 }
 .center .sear-condit {
-  margin-top: 28px;
   border-bottom: 1px solid #e3e3e3;
+}
+.center .sear-condit .condition-tit {
+  font-size: 15px;
+  color: #000;
+  height: 43px;
+  line-height: 43px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
 }
 .center .sear-condit .list {
   line-height: 40px;
@@ -468,16 +475,15 @@
   border-bottom: 0;
 }
 .center .sear-condit .list .tit {
-  width: 54px;
+  width: 90px;
   float: left;
   margin-left: 10px;
   font-size: 12px;
   color: #a0a0a0;
-  font-family: "SimSun";
 }
 .center .sear-condit .list .cont {
   float: left;
-  width: 1174px;
+  width: 1138px;
   position: relative;
 }
 .center .sear-condit .list .cont ul.typelist {
@@ -485,15 +491,20 @@
 }
 .center .sear-condit .list .cont ul.typelist li {
   float: left;
-  min-width: 85px;
-  text-align: center;
+  display: inline-block;
+  padding: 0 22px;
+  min-width: 36px;
+  text-align: left;
 }
 .center .sear-condit .list .cont ul.typelist li a {
-  font-size: 14px;
+  font-size: 12px;
   color: #646464;
 }
 .center .sear-condit .list .cont ul.typelist li a:hover {
   color: #e69b02;
+}
+.center .sear-condit .list .cont ul.typelist li.active a {
+  font-size: 16px;
 }
 .center .sear-condit .list .cont a.more-type {
   position: absolute;
@@ -578,7 +589,7 @@
 .center .pro-list-wrap ul li .angle {
   position: absolute;
   top: -4px;
-  left: 13px;
+  left: 11px;
   color: #fff;
   font-size: 14px;
   line-height: 38px;
@@ -586,6 +597,14 @@
   width: 48px;
   height: 43px;
   background: url(../images/angle-icon-top.png) no-repeat;
+}
+.center .pro-list-wrap ul li:hover {
+  border: 3px solid #dedede;
+  padding: 3px 8px;
+}
+.center .pro-list-wrap ul li:hover .angle {
+  top: -6px;
+  left: 9px;
 }
 .center .page-nav {
   margin: 120px auto 68px;
