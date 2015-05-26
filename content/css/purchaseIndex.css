@@ -462,7 +462,7 @@
   border-bottom: 1px solid #e3e3e3;
 }
 .center .sear-condit .condition-tit {
-  font-size: 15px;
+  font-size: 14px;
   color: #000;
   height: 43px;
   line-height: 43px;
@@ -470,21 +470,21 @@
   font-weight: normal;
 }
 .center .sear-condit .list {
-  line-height: 40px;
+  line-height: 34px;
   border: 1px solid #e3e3e3;
   border-bottom: 0;
 }
 .center .sear-condit .list .tit {
   width: 90px;
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 12px;
   color: #a0a0a0;
 }
 .center .sear-condit .list .cont {
   float: left;
-  width: 1138px;
   position: relative;
+  margin-left: 45px;
 }
 .center .sear-condit .list .cont ul.typelist {
   float: left;
@@ -492,8 +492,7 @@
 .center .sear-condit .list .cont ul.typelist li {
   float: left;
   display: inline-block;
-  padding: 0 22px;
-  min-width: 36px;
+  min-width: 110px;
   text-align: left;
 }
 .center .sear-condit .list .cont ul.typelist li a {
@@ -504,7 +503,7 @@
   color: #e69b02;
 }
 .center .sear-condit .list .cont ul.typelist li.active a {
-  font-size: 16px;
+  font-size: 14px;
 }
 .center .sear-condit .list .cont a.more-type {
   position: absolute;
@@ -536,7 +535,7 @@
 }
 .center .pro-list-wrap ul li .pro-img img {
   width: 200px;
-  margin: 38px auto;
+  margin: 33px auto;
   display: block;
 }
 .center .pro-list-wrap ul li .pro-name {
@@ -607,7 +606,7 @@
   left: 9px;
 }
 .center .page-nav {
-  margin: 120px auto 68px;
+  margin: 22px auto 30px;
 }
 .tool-bar {
   background: #dfdfdf;
@@ -633,6 +632,9 @@
   font-size: 12px;
   font-family: "SimSun";
   line-height: 50px;
+}
+.tool-bar ul li a .arrow {
+  margin: 3px 0 0 3px;
 }
 .tool-bar ul li a:hover {
   color: #e69b02;

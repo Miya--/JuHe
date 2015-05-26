@@ -69,8 +69,15 @@
 }
 .center .right-log ul li .verify-wrap {
   float: right;
+  width: 143px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 27px;
+  color: #fff;
   margin-right: 15px;
   cursor: pointer;
+  background: #99bfe4;
 }
 .center .right-log ul li .change-code {
   float: right;
