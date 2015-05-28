@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>俱合家具电商平台--购物车</title>
+    <link rel="stylesheet" type="text/css" href="content/css/common.css">
+    <link rel="stylesheet" type="text/css" href="content/css/UIControl.css">
+    <link rel="stylesheet" type="text/css" href="content/css/cart.css">
+    <script src="content/js/lib/jquery-1.8.1.js" type="text/javascript"></script>
+    <script src="content/js/lib/jquery.jqzoom-core.js" type="text/javascript"></script>
+    <script src="content/js/UIControl.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--顶部导航-->
+    <div class="top-nav">
+        <div class="top-nav-wrap">
+            <div class="welcome-wrap">
+                <span class="welcome">欢迎您来到俱合网！</span>
+                <a href="#" class="user-name">Miya</a>
+            </div>
+            <ul class="right-menu">
+                <li><a href="#">我的俱合</a><span class="line"></span></li>
+                <li><a href="#">订单管理</a><span class="line"></span></li>
+                <li><a href="#">购物车</a><span class="cart-num">5</span><span class="line"></span></li>
+                <li><a href="#">我的收藏</a><span class="line"></span></li>
+                <li><a href="#">帮助中心</a><span class="line"></span></li>
+                <li><a href="#">咨询俱合</a></li>
+            </ul> 
+        </div>
+    </div><!--顶部导航/-->
+    <!-- 头部 -->
+    <div class="header">
+        <div class="logo-wrap">
+            <a href="#" class="logo" title="俱合网"></a>
+            <div class="logo-tip"></div>
+        </div>
+        <div class="search-bar-wrap">
+            <input type="text" placeholder="热门： 办公桌子    椅子    酒店衣柜    隔断" class="input-txt" style="width:338px;">
+            <a href="#" class="sear-btn">搜产品</a>
+            <a href="#" class="sear-shop-btn">搜厂家</a>
+        </div>
+        <div class="right-infor">
+            <ul>
+                <li>
+                    <p class="num">7419<img src="content/images/arrow-up.png"/></p>
+                    <p>经销商数量</p>
+                </li>
+                <li>
+                    <p class="num">741309<img src="content/images/arrow-up.png"/></p>
+                    <p>商品数量</p>
+                </li>
+            </ul>
+        </div>
+        <div class="clear-no-height"></div>
+    </div><!-- 头部/ -->
+    <!--中间部分-->
+    <div class="center">
+        <!-- 已选商品内容 -->
+        <div class="selected-pro-wrap">
+            <ul>
+                <li>
+                    <div class="order-infor-wrap">
+                        <div class="order-shopname">
+                            <input type="checkbox" />
+                            <span>店铺：<i>优选办公</i></span>
+                        </div>
+                        <div class="order-del">
+                            <a href="#">删除</a>
+                        </div>
+                        <div class="online-ser">在线客服：<img src="content/images/qq.jpg"></div>
+                        <div class="shop-tel">电话：025-89556948</div>
+                        <div class="shop-addr">地址：<span>江苏省南京市中山南路12号</span></div>
+                    </div>
+                   
+                   <div class="pro-wrap">
+                        <div class="pro-top">
+                            <ul>
+                                <li>
+                                    <div class="checkbox-item">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="pro-img"><img src="content/images/image-pro/45.jpg"></div>
+                                    <div class="pro-infor">
+                                        <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                        <p class="pro-serv">
+                                            <img src="content/images/security.jpg">
+                                            <img src="content/images/security-day.jpg">
+                                            <img src="content/images/visa.jpg">
+                                        </p>
+                                    </div>
+                                    <div class="pro-price">
+                                        <p class="old">￥888.00</p>
+                                        <p class="new">￥<i>888.00</i></p>
+                                    </div>
+                                    <div class="pro-amount">
+                                        <a href="javascript:;" id="minusNum" class="num-minus" title="减少">-</a>
+                                        <div class="num-detail" id="numVal">1</div>
+                                        <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
+                                    </div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-up1.png"></div>
+                                    <div class="pro-option">
+                                        <a href="#">移入收藏</a>
+                                        <a href="#">删除</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- 备注 -->
+                            <div class="tip-wrap">
+                                <div class="tit">采购商备注：</div>
+                                <div class="cont">
+                                    <textarea class="input-txtarea" style="width:422px; height:75px;" placeholder="选填：对本次交易的说明（建议填写已经和卖家达成一致的说明）"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-bottom">
+                            <div class="pro-desc">
+                                <h2>中班网椅：</h2>
+                                <p>1.背采用高弹网M4系列，PP扶手；椅座为高弹性定型海棉，扪扪F1系列、T1系列、F2系列、F9系列布，为不同体型用户提供卓越的舒适度和支撑，让你办公更轻松；</p>
+                                <p>2.H017-1升降底盘；黑85mm行程1#拉伸汽杆，C320尼龙脚，2.5寸PU带套轮，可有效防止刮伤地板及降低噪音；</p>
+                                <p>3.适用于办公场合主管或 以上级别人员使用</p>
+                            </div>
+                            <div class="pro-size">
+                                <h2>规格参数：</h2>
+                                <ul>
+                                    <li>尺寸：66*62.5*56.5cm</li>
+                                    <li>张/箱：1pc/ctn</li>
+                                    <li>净重：11.5KG</li>
+                                    <li>毛重：12.8KG</li>
+                                    <li>20Q装柜：108pcs</li>
+                                    <li>40Q装柜：216pcs</li>
+                                    <li>40Q装柜：222pcs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pro-price-wrap">
+                        <div class="pro-price-inner">
+                            <div class="price-item">小计：<span>￥<i>8899.00</i></span></div>
+                        </div>
+                        <a href="#" class="btn-submit">提交订单</a>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- 已选商品内容/ -->
+
+        <!--分页-->
+        <div class="page-nav">
+            <a href="javascript:;" title="上一页" class="prev-page">上一页</a>
+            <a href="javascript:;" title="1">1</a>
+            <span>...</span>
+            <a href="javascript:;" title="4">4</a>
+            <a href="javascript:;" title="5">5</a>
+            <a href="javascript:;" title="6">6</a>
+            <a href="javascript:;" title="7" class="active">7</a>
+            <a href="javascript:;" title="8">8</a>
+            <a href="javascript:;" title="9">9</a>
+            <a href="javascript:;" title="10">10</a>
+            <span>...</span>
+            <a href="javascript:;" title="99">99</a>
+            <a href="javascript:;" title="100">100</a>
+            <a href="javascript:;" title="下一页" class="next-page"></a>
+        </div><!--分页/-->
+    </div><!--中间部分/-->
+    <!--页尾-->
+    <div class="footer">
+        <div class="footer-inner">
+            <ul class="footer-serv-wrap">
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon fix"></div>
+                        <p class="txt">快修服务</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon return"></div>
+                        <p class="txt">7天无理由退货</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon private"></div>
+                        <p class="txt">私人定制</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon sale-serv"></div>
+                        <p class="txt">售后服务</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon free-change"></div>
+                        <p class="txt">免费换货</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="footer-site-infor">
+                <div class="logo"></div>
+                <ul class="footer-list">
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>关于俱合</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>服务支持</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>帮助中心</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>关注我们</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                </ul>
+                <div class="contact-wrap">
+                    <p class="tit">客服热线</p>
+                    <p class="phone">025-8598888</p>
+                    <p class="address">地址：</p>
+                    <p class="address">南京市中山南路大厦230-9</p>
+                </div>
+                <div class="code-wrap">
+                    <img src="content/images/code-footer.jpg" />
+                    <p>扫一扫，关注我们</p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            JUHE京ICP138940t69号 备100398509号  京公网按备4904805490号  京网文 93402980809 -8980号
+        </p>
+    </div><!--页尾/-->
+</body>
+</html>

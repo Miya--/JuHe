@@ -347,6 +347,15 @@ label.r_on {
   color: #a0a0a0;
   font-size: 14px;
 }
+.input-txtarea {
+  border: 1px solid #e5e5e5;
+  line-height: 18px;
+  resize: none;
+  padding: 2px 15px;
+  outline: none;
+  color: #a0a0a0;
+  font-size: 12px;
+}
 /* 分页 */
 .page-nav {
   text-align: center;
