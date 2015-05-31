@@ -235,4 +235,73 @@
     }
  });
 
+$(function(){
+    // 导航
+    $('#btnAllTypePro').hover(function(){
+        $('#allTypeProCont').css('display', 'block');
+    },function(){
+        $('#allTypeProCont').css('display', 'none');
+    });
+
+    $('#allTypeProCont').hover(function(){
+        $(this).css('display', 'block');
+    },function(){
+        $(this).css('display', 'none');
+    });
+    
+    $('.menu-item').hover(function(){
+        var self = $(this);
+        if(self.find('.inner-wrap').length > 0){
+            self.find('.inner-wrap').css('display', 'block');
+            self.find('.mask').css('display', 'block');
+            self.find('.right-mark').css('display', 'none');
+        }else{
+            self.css('border-right','1px solid #f6f6f6');
+        }
+    }, function(){
+        var self = $(this);
+        if(self.find('.inner-wrap').length > 0){
+            self.find('.inner-wrap').css('display', 'none');
+            self.find('.mask').css('display', 'none');
+            self.find('.right-mark').css('display', 'block');
+        }else{
+            self.css('border-right','1px solid #184c81');
+        }
+    });
+    // 更多 hover显示右边展开内容
+    $('#moreType').hover(function(){
+        var self = $(this);
+        if(self.find('.inner-wrap').length > 0){
+            self.find('.inner-wrap').css('display', 'block');
+            self.find('.mask').css('display', 'block');
+            //self.find('.right-mark').css('display', 'none');
+        }else{
+            self.css('border-right','1px solid #f6f6f6');
+        }
+    }, function(){
+        var self = $(this);
+        if(self.find('.inner-wrap').length > 0){
+            self.find('.inner-wrap').css('display', 'none');
+            self.find('.mask').css('display', 'none');
+            //self.find('.right-mark').css('display', 'block');
+        }else{
+            self.css('border-right','1px solid #184c81');
+        }
+    });
+
+    // menu hover显示下拉
+    $('#indexMenu li').hover(function(){
+        var self = $(this);
+        if(self.find('ul').length > 0){
+            self.addClass('active');
+            self.find('ul').css('display', 'block');
+        }
+    },function(){
+        var self = $(this);
+        if(self.find('ul').length > 0){
+            self.removeClass('active');
+            self.find('ul').css('display', 'none');
+        }
+    });
+});
  

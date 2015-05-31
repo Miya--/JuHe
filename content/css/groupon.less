@@ -1,3 +1,4 @@
+
 .top-nav{ background: #f7f7f7;
     .top-nav-wrap{ padding: 0;}
 }
@@ -132,13 +133,13 @@
     }
     .sear-condit{ border-bottom:1px solid #e3e3e3;
         .condition-tit{ font-size:14px; color: #000; height: 43px; line-height: 43px; font-family: "Microsoft YaHei"; font-weight: normal;
-
+            i{ color: #a0a0a0; font-style: normal;}
         }
-        .list{ line-height: 34px; border:1px solid #e3e3e3; border-bottom: 0;
+        .list{ line-height:48px; border:1px solid #e3e3e3; border-bottom: 0;
             .tit{ width:90px; float: left; margin-left: 15px; font-size: 12px; color: #a0a0a0;}
-            .cont{ float: left; width:1088px; position: relative; margin-left: 45px;
+            .cont{ float: left; position: relative; margin-left: 45px;
                 ul.typelist{ float: left;
-                    li{ float: left; display: inline-block; min-width: 110px; text-align: left;
+                    li{ float: left; display: inline-block; min-width: 103px; text-align: left;
                         a{ font-size: 12px; color: #646464;}
                         a:hover{ color: #e69b02;}
                     }
@@ -148,31 +149,37 @@
                 a.more-type:hover{ color: #e69b02;}
             }
         }
+        .btn-wrap{ height: 54px; font-size: 12px; text-align: center; line-height: 54px;
+            .btn-ok{ display: inline-block; background: #003366; margin-right: 27px; color: #fff; height: 26px; line-height: 26px; width: 73px; text-align: center; }
+            .btn-cancel{ display: inline-block; background: #f4f4f4; color: #000; height: 26px; line-height: 26px; width: 73px; text-align: center; border: 1px solid #a3a3a3;}
+        }
     }
 
     .pro-list-wrap{ margin-top: 20px;
         ul{
-           li{ position: relative; margin-top: -1px; margin-left: -1px; width: 289px; float: left; padding:5px 10px;border:1px solid #dfdfdf;
+           li{ position: relative; z-index: 1; margin-top: -1px; margin-left: -1px; width: 289px; float: left; padding:5px 10px;border:1px solid #dedede;
               .pro-img{ display: block; height: 290px;
                     img{ width: 200px; margin: 33px auto; display: block;}
                 }
-                .pro-name{ display: block; text-align: left; color: #6d6d6d; font-size: 14px; line-height: 26px;}
+                .pro-name{ display: block; text-align: left; color: #292929; font-size: 14px; line-height: 26px;}
                 .pro-name:hover{ color: #e69b02;}
-                p{ font-size: 12px; overflow: hidden; color: #a0a0a0; line-height: 22px; font-family: "SimSun";
-                    .price{ float: left;
-                        i{ font-style: normal; color:#e22222; font-size: 18px; font-family: "Arial"}
+                p{ font-size: 12px; overflow: hidden; color: #a0a0a0; line-height: 22px;
+                    .price{ float: left; color:#e22222;
+                        i{ font-style: normal; font-size: 18px; font-family: "Arial"}
                     }
-                    .order-per{ float: right;
-                        i{ font-style: normal; color: #383838; font-size: 14px;font-family: "Arial"}
-                    }
+                    .amount{ float: right; width: 110px; text-align: left;}
+                    .saled{ float: right; width: 110px; text-align: left;}
+                    .price-o{ float: left;text-align: left; color: #a0a0a0; text-decoration: line-through; margin-left: 5px; }
                 }
                 p.time-last{ color: #6d6d6d;}
                 a.shopname{font-size: 12px; overflow: hidden; color: #a0a0a0; line-height: 26px;}
                 a.shopname:hover{color: #e69b02;}
                 .angle{ position: absolute; top: -4px; left: 11px; color: #fff; font-size: 14px; line-height: 38px; text-align:center; width: 48px; height: 43px; background: url(../images/angle-icon-top.png) no-repeat;}
+                p.time-count-off{ position: relative; width: 310px; left: -10px; z-index: 2; background: #ccc; color: #fff; font-size:12px; height: 30px; line-height: 30px; text-align: center;}
             }
             li:hover{border:3px solid #dedede;padding: 3px 8px;}
             li:hover .angle{top: -6px; left:9px;}
+            li:hover p.time-count-off{background: #ee4e4e;}
         }
     }
     .page-nav{ margin: 22px auto 30px;}

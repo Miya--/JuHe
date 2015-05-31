@@ -469,8 +469,12 @@
   font-family: "Microsoft YaHei";
   font-weight: normal;
 }
+.center .sear-condit .condition-tit i {
+  color: #a0a0a0;
+  font-style: normal;
+}
 .center .sear-condit .list {
-  line-height: 34px;
+  line-height: 48px;
   border: 1px solid #e3e3e3;
   border-bottom: 0;
 }
@@ -483,7 +487,6 @@
 }
 .center .sear-condit .list .cont {
   float: left;
-  width: 1088px;
   position: relative;
   margin-left: 45px;
 }
@@ -493,7 +496,7 @@
 .center .sear-condit .list .cont ul.typelist li {
   float: left;
   display: inline-block;
-  min-width: 110px;
+  min-width: 103px;
   text-align: left;
 }
 .center .sear-condit .list .cont ul.typelist li a {
@@ -518,17 +521,44 @@
 .center .sear-condit .list .cont a.more-type:hover {
   color: #e69b02;
 }
+.center .sear-condit .btn-wrap {
+  height: 54px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 54px;
+}
+.center .sear-condit .btn-wrap .btn-ok {
+  display: inline-block;
+  background: #003366;
+  margin-right: 27px;
+  color: #fff;
+  height: 26px;
+  line-height: 26px;
+  width: 73px;
+  text-align: center;
+}
+.center .sear-condit .btn-wrap .btn-cancel {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #000;
+  height: 26px;
+  line-height: 26px;
+  width: 73px;
+  text-align: center;
+  border: 1px solid #a3a3a3;
+}
 .center .pro-list-wrap {
   margin-top: 20px;
 }
 .center .pro-list-wrap ul li {
   position: relative;
+  z-index: 1;
   margin-top: -1px;
   margin-left: -1px;
   width: 289px;
   float: left;
   padding: 5px 10px;
-  border: 1px solid #dfdfdf;
+  border: 1px solid #dedede;
 }
 .center .pro-list-wrap ul li .pro-img {
   display: block;
@@ -542,7 +572,7 @@
 .center .pro-list-wrap ul li .pro-name {
   display: block;
   text-align: left;
-  color: #6d6d6d;
+  color: #292929;
   font-size: 14px;
   line-height: 26px;
 }
@@ -554,25 +584,32 @@
   overflow: hidden;
   color: #a0a0a0;
   line-height: 22px;
-  font-family: "SimSun";
 }
 .center .pro-list-wrap ul li p .price {
   float: left;
+  color: #e22222;
 }
 .center .pro-list-wrap ul li p .price i {
   font-style: normal;
-  color: #e22222;
   font-size: 18px;
   font-family: "Arial";
 }
-.center .pro-list-wrap ul li p .order-per {
+.center .pro-list-wrap ul li p .amount {
   float: right;
+  width: 110px;
+  text-align: left;
 }
-.center .pro-list-wrap ul li p .order-per i {
-  font-style: normal;
-  color: #383838;
-  font-size: 14px;
-  font-family: "Arial";
+.center .pro-list-wrap ul li p .saled {
+  float: right;
+  width: 110px;
+  text-align: left;
+}
+.center .pro-list-wrap ul li p .price-o {
+  float: left;
+  text-align: left;
+  color: #a0a0a0;
+  text-decoration: line-through;
+  margin-left: 5px;
 }
 .center .pro-list-wrap ul li p.time-last {
   color: #6d6d6d;
@@ -598,6 +635,18 @@
   height: 43px;
   background: url(../images/angle-icon-top.png) no-repeat;
 }
+.center .pro-list-wrap ul li p.time-count-off {
+  position: relative;
+  width: 310px;
+  left: -10px;
+  z-index: 2;
+  background: #ccc;
+  color: #fff;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
 .center .pro-list-wrap ul li:hover {
   border: 3px solid #dedede;
   padding: 3px 8px;
@@ -605,6 +654,9 @@
 .center .pro-list-wrap ul li:hover .angle {
   top: -6px;
   left: 9px;
+}
+.center .pro-list-wrap ul li:hover p.time-count-off {
+  background: #ee4e4e;
 }
 .center .page-nav {
   margin: 22px auto 30px;

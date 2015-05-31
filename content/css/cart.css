@@ -124,6 +124,7 @@
   font-style: normal;
 }
 .center .list-header {
+  clear: both;
   height: 32px;
   line-height: 32px;
   background: #dfdfdf;

@@ -168,7 +168,6 @@
   margin-left: 13px;
   margin-right: 18px;
   float: left;
-  background: url(../images/nav-icon.png) no-repeat;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.right-mark {
   display: block;
@@ -189,43 +188,43 @@
   z-index: 2;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon1 {
-  background-position: 0 0;
+  background: url(../images/nav-icon/zt1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon2 {
-  background-position: 0 -31px;
+  background: url(../images/nav-icon/g1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon3 {
-  background-position: 0 -65px;
+  background: url(../images/nav-icon/y1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon4 {
-  background-position: 0 -104px;
+  background: url(../images/nav-icon/sf1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon5 {
-  background-position: 0 -138px;
+  background: url(../images/nav-icon/cj1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon6 {
-  background-position: 0 -171px;
+  background: url(../images/nav-icon/gzw1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon7 {
-  background-position: 0 -226px;
+  background: url(../images/nav-icon/yl1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon8 {
-  background-position: 0 -262px;
+  background: url(../images/nav-icon/xx1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon9 {
-  background-position: 0 -296px;
+  background: url(../images/nav-icon/jd1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon10 {
-  background-position: 0 -329px;
+  background: url(../images/nav-icon/sys1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon11 {
-  background-position: 0 -364px;
+  background: url(../images/nav-icon/bwg1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon12 {
-  background-position: 0 -395px;
+  background: url(../images/nav-icon/yh1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item span.menu-icon13 {
-  background-position: 0 -434px;
+  background: url(../images/nav-icon/ggj1.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul .inner-wrap {
   display: none;
@@ -324,47 +323,44 @@
   border-right: 0;
   color: #123457;
 }
-.center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon {
-  background: url(../images/nav-icon-on.png) no-repeat;
-}
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon1 {
-  background-position: 0 0;
+  background: url(../images/nav-icon/ggj2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon2 {
-  background-position: 0 -31px;
+  background: url(../images/nav-icon/g2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon3 {
-  background-position: 0 -65px;
+  background: url(../images/nav-icon/y2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon4 {
-  background-position: 0 -104px;
+  background: url(../images/nav-icon/sf2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon5 {
-  background-position: 0 -138px;
+  background: url(../images/nav-icon/cj2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon6 {
-  background-position: 0 -171px;
+  background: url(../images/nav-icon/gzw2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon7 {
-  background-position: 0 -226px;
+  background: url(../images/nav-icon/yl2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon8 {
-  background-position: 0 -262px;
+  background: url(../images/nav-icon/xx2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon9 {
-  background-position: 0 -296px;
+  background: url(../images/nav-icon/jd2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon10 {
-  background-position: 0 -329px;
+  background: url(../images/nav-icon/sys2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon11 {
-  background-position: 0 -364px;
+  background: url(../images/nav-icon/bwg2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon12 {
-  background-position: 0 -395px;
+  background: url(../images/nav-icon/yh2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item:hover span.menu-icon13 {
-  background-position: 0 -434px;
+  background: url(../images/nav-icon/ggj2.png) no-repeat 0 0;
 }
 .center .nav-wrap .left-menu-wrap .content ul li.menu-item1 .inner-wrap {
   top: -27px;
@@ -403,6 +399,7 @@
   float: left;
   margin-right: 5px;
   position: relative;
+  z-index: 202;
 }
 .center .nav-wrap .right-cont-wrap .nav-wrap-inner ul.left-nav li a {
   display: block;
@@ -523,6 +520,7 @@
 .center .nav-wrap .right-cont-wrap .right-condition-wrap {
   width: 200px;
   position: absolute;
+  z-index: 201;
   right: 1px;
   top: 40px;
   background: #fff;

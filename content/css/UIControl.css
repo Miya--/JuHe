@@ -245,30 +245,34 @@
 /* 下拉框 */
 .combo-box {
   position: absolute;
-  color: #a0a0a0;
+  color: #646464;
   overflow: hidden;
   zoom: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #a3a3a3;
 }
 .combo-box .combo-box-top {
   padding: 0 4px;
   font-size: 14px;
-  line-height: 33px;
+  line-height: 24px;
+  height: 24px;
   cursor: pointer;
   color: #a0a0a0;
 }
 .combo-box .fir-txt {
-  text-align: left;
+  text-align: right;
+  color: #646464;
 }
 .combo-box .down-mark {
   float: right;
   display: block;
-  height: 33px;
-  width: 9px;
+  height: 7px;
+  width: 10px;
+  margin-top: 9px;
   margin-left: 12px;
-  background: url('../images/arrow-down.png') no-repeat center center;
+  background: url('../images/arrow-down1.png') no-repeat center center;
 }
 .combo-box ul {
+  z-index: 998;
   display: none;
   border-top: 1px solid #e5e5e5;
   position: relative;
@@ -302,7 +306,7 @@ label {
   min-width: 19px;
   height: 20px;
   float: left;
-  color: #a0a0a0;
+  color: #5e5e5e;
 }
 .radios {
   padding-top: 18px;
@@ -314,7 +318,7 @@ label {
 }
 .label_radio,
 .label_check {
-  background: #ffffff url(../images/radioCheck2.png) no-repeat;
+  background: #ffffff url(../images/radioCheck3.png) no-repeat;
 }
 .label_check {
   background-position: 0 0px;
@@ -327,7 +331,8 @@ label.c_on {
 }
 .withTxt {
   padding-left: 25px;
-  line-height: 20px;
+  line-height: 12px;
+  font-size: 12px;
 }
 label.r_on {
   background-position: 0 -62px;
