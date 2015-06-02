@@ -12,5 +12,8 @@ $(function(){
         
     });
 
-    
+    // 下拉框初始化
+    $('#selectPro').select();
+    $('#selectCity').select();
+    $('#selectQu').select();
 });

@@ -469,8 +469,12 @@
   font-family: "Microsoft YaHei";
   font-weight: normal;
 }
+.center .sear-condit .condition-tit i {
+  color: #a0a0a0;
+  font-style: normal;
+}
 .center .sear-condit .list {
-  line-height: 34px;
+  line-height: 48px;
   border: 1px solid #e3e3e3;
   border-bottom: 0;
 }
@@ -517,6 +521,32 @@
 }
 .center .sear-condit .list .cont a.more-type:hover {
   color: #e69b02;
+}
+.center .sear-condit .btn-wrap {
+  height: 54px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 54px;
+}
+.center .sear-condit .btn-wrap .btn-ok {
+  display: inline-block;
+  background: #003366;
+  margin-right: 27px;
+  color: #fff;
+  height: 26px;
+  line-height: 26px;
+  width: 73px;
+  text-align: center;
+}
+.center .sear-condit .btn-wrap .btn-cancel {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #000;
+  height: 26px;
+  line-height: 26px;
+  width: 73px;
+  text-align: center;
+  border: 1px solid #a3a3a3;
 }
 .center .pro-list-wrap {
   margin-top: 20px;
