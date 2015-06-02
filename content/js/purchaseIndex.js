@@ -16,4 +16,28 @@ $(function(){
     $('#selectPro').select();
     $('#selectCity').select();
     $('#selectQu').select();
+
+    $('.label_check').click(function(){
+        if($('.sear-condit').find('.c_on').length > 0){
+            $('#btnOption').css('display', 'block');
+        }else{
+            $('#btnOption').css('display', 'none');
+        }
+    });
+
+    $('.combo-box').click(function(){
+        var isSelect = false;
+        $('select').each(function(){
+            alert($(this).val());
+            if($(this).val() != ''){
+                isSelect == true;
+            }
+        });
+        alert(isSelect);
+        if(isSelect){
+            $('#btnOption').css('display', 'block');
+        }else{
+            $('#btnOption').css('display', 'none');
+        }
+    });
 });
