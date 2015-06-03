@@ -537,6 +537,9 @@
   width: 73px;
   text-align: center;
 }
+.center .sear-condit .btn-wrap .btn-ok:hover {
+  background: #0c4682;
+}
 .center .sear-condit .btn-wrap .btn-cancel {
   display: inline-block;
   background: #f4f4f4;
@@ -546,6 +549,10 @@
   width: 73px;
   text-align: center;
   border: 1px solid #a3a3a3;
+}
+.center .sear-condit .btn-wrap .btn-cancel:hover {
+  color: #003366;
+  border-color: #003366;
 }
 .center .pro-list-wrap {
   margin-top: 20px;

@@ -115,7 +115,7 @@
                                         <div class="num-detail" id="numVal">2</div>
                                         <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
                                     </div>
-                                    <div class="pro-param">参数详情 <img src="content/images/arrow-up1.png"></div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-down1.png"></div>
                                     <div class="pro-option">
                                         <a href="#">移入收藏</a>
                                         <a href="#">删除</a>
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pro-bottom">
+                        <div class="pro-bottom" style="display:none">
                             <div class="pro-desc">
                                 <h2>中班网椅：</h2>
                                 <p>1.背采用高弹网M4系列，PP扶手；椅座为高弹性定型海棉，扪扪F1系列、T1系列、F2系列、F9系列布，为不同体型用户提供卓越的舒适度和支撑，让你办公更轻松；</p>
@@ -197,7 +197,7 @@
                                         <div class="num-detail" id="numVal">2</div>
                                         <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
                                     </div>
-                                    <div class="pro-param">参数详情 <img src="content/images/arrow-up1.png"></div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-down1.png"></div>
                                     <div class="pro-option">
                                         <a href="#">移入收藏</a>
                                         <a href="#">删除</a>
@@ -260,7 +260,7 @@
                                         <div class="num-detail" id="numVal">2</div>
                                         <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
                                     </div>
-                                    <div class="pro-param">参数详情 <img src="content/images/arrow-up1.png"></div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-down1.png"></div>
                                     <div class="pro-option">
                                         <a href="#">移入收藏</a>
                                         <a href="#">删除</a>
@@ -288,7 +288,7 @@
                                         <div class="num-detail" id="numVal">2</div>
                                         <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
                                     </div>
-                                    <div class="pro-param">参数详情 <img src="content/images/arrow-up1.png"></div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-down1.png"></div>
                                     <div class="pro-option">
                                         <a href="#">移入收藏</a>
                                         <a href="#">删除</a>
@@ -316,7 +316,7 @@
                                         <div class="num-detail" id="numVal">2</div>
                                         <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
                                     </div>
-                                    <div class="pro-param">参数详情 <img src="content/images/arrow-up1.png"></div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-down1.png"></div>
                                     <div class="pro-option">
                                         <a href="#">移入收藏</a>
                                         <a href="#">删除</a>
@@ -444,5 +444,21 @@
             JUHE京ICP138940t69号 备100398509号  京公网按备4904805490号  京网文 93402980809 -8980号
         </p>
     </div><!--页尾/-->
+
+    <script type="text/javascript">
+        $(function(){
+            $('.pro-param').click(function(){
+                var selfObj = $(this),
+                    targetObj = selfObj.parent().parent().parent().next('.pro-bottom');
+               if(targetObj.is(':visible')){
+                    targetObj.css('display', 'none');
+                    selfObj.find('img').attr('src', 'content/images/arrow-down1.png');
+               }else if(targetObj.is(':hidden')){
+                    targetObj.css('display', 'block');
+                    selfObj.find('img').attr('src', 'content/images/arrow-up1.png');
+               }
+            });
+        });
+    </script>
 </body>
 </html>

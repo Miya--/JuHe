@@ -43,11 +43,11 @@
                 <li>
                     <div class="left-tit">注册类型：</div>
                     <div class="center-cont">
-                        <label for="radio-0111" class="label_radio withTxt r_ff r_on" style="margin-right:50px; margin-top:5px"> 
+                        <label for="radio-0111" class="label_radio withTxt r_ff r_on" style="margin-right:50px; margin-top:10px"> 
                             <input type="radio" value="1" id="radio-0111" checked="checked" name="sample-radio" /> 
                             厂家注册
                         </label> 
-                        <label for="radio-0222" class="label_radio withTxt r_off" style="margin-top:5px"> 
+                        <label for="radio-0222" class="label_radio withTxt r_off" style="margin-top:10px"> 
                             <input type="radio" value="1" id="radio-0222" name="sample-radio" /> 
                             经销商注册
                         </label> 
@@ -103,13 +103,13 @@
                 </li>
                 <li>
                     <div class="left-tit">所属区域：</div>
-                    <div class="center-cont">
-                        <select class="combo-box" id="selectPro" width="239">
-                            <option value="">请选择省份</option> 
-                            <option value="1">江苏省</option> 
-                            <option value="2">安徽省</option> 
-                            <option value="3">山东省</option> 
-                        </select>
+                    <div class="center-cont" style="padding-top:5px;">
+                            <select class="combo-box" id="selectPro" width="239">
+                                <option value="">请选择省份</option> 
+                                <option value="1">江苏省</option> 
+                                <option value="2">安徽省</option> 
+                                <option value="3">山东省</option> 
+                            </select>
                         <div class="city-drop">
                             <select class="combo-box" id="selectCity" width="239">
                                 <option value="">请选择城市</option> 
@@ -118,6 +118,7 @@
                                 <option value="3">常州市</option> 
                             </select>
                         </div>
+                        <div class="clear-no-height"></div>
                     </div>
                 </li>
                 <li>
@@ -214,7 +215,9 @@
                 </li>
             </ul>
             <p class="tip-txt">注：为了保证企业注册信息真实有效，注册完成后，请根据消息提示完成企业认证</p>
-            <input type="submit" id="agreeRegist" class="btn-regist" value="同意并注册" />
+            <div class="btn-wrap">
+                <input type="submit" id="agreeRegist" class="btn-regist" value="同意并注册" />
+            </div>
         </form>
     </div><!--中间部分/-->
     <!--页尾-->

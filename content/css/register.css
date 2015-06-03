@@ -84,6 +84,7 @@
 }
 .center .btn-regist {
   display: block;
+  width: 250px;
   background: #123457;
   color: #fff;
   font-size: 16px;
@@ -115,4 +116,7 @@
 }
 .center .city-drop .combo-box {
   left: 434px;
+}
+.center .btn-wrap {
+  text-align: center;
 }
