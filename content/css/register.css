@@ -49,6 +49,11 @@
 .center ul.form-cont li .center-cont {
   float: left;
 }
+.center ul.form-cont li .center-cont .city-drop {
+  position: relative;
+  left: -164px;
+  top: 0;
+}
 .center ul.form-cont li .right-tip {
   float: left;
 }
