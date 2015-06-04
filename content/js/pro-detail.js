@@ -21,31 +21,29 @@ $(function(){
     },function(){
         $(this).css('background', colorData.hover);
     });
-    $('.shop-go, .contact-online, .btn-search').hover(function(){
-        $(this).css({'color' : colorData.hover, 'border-color' : colorData.hover, 'background-color' : '#fff'});
+    // 在线联系
+    $('.contact-online').hover(function(){
+        $(this).css({'color' : '#fff', 'background' : colorData.normal});
     },function(){
-        $(this).css({'color' : '#fff', 'border-color' : colorData.normal, 'background-color' : colorData.normal});
+        $(this).css({'color' : '#fff', 'background' : colorData.hover});
     });
+
     $('.nav').find('.active a').css('background', colorData.active);
+    // 关注店铺
     $('.shop-follow').css({'color' : colorData.normal, 'border-color' : colorData.normal});
     $('.shop-follow').hover(function(){
-        $(this).css({'color' : colorData.hover, 'border-color' : colorData.hover, 'background-color' : '#fff'});
+        $(this).css({'color' : '#fff', 'border-color' : colorData.normal, 'background-color' : colorData.normal});
     },function(){
         $(this).css({'color' : colorData.normal, 'border-color' : colorData.normal, 'background-color' : '#fff'});
     });
-    $('#proTabHead').find('.active').css({'color' : '#fff', 'background' : colorData.normal});
-    $('#proTabHead').find('li a').hover(function(){
+
+    $('#proTabHead').find('.active a').css({'color' : '#fff', 'background' : colorData.normal});
+    $('#proTabHead').find('.default a').hover(function(){
         $(this).css({'color' : '#fff', 'background' : colorData.normal});
     },function(){
         $(this).css({'color' : '#000', 'background' : 'none'});
     });
-    $('#proTabHead').find('.active a').hover(function(){
-        $(this).css({'color' : '#fff', 'background' : colorData.normal});
-    },function(){
-        $(this).css({'color' : '#fff', 'background' : colorData.normal});
-    });
-
-
+    
     // 图片放大镜
     $(".jqzoom1").jqzoom({
         zoomType: 'standard',
@@ -70,8 +68,21 @@ $(function(){
     var tabHeadList = $('#proTabHead ul li');
     tabHeadList.each(function(i){
       $(this).find('a').off('click').on({'click' : function(){
+        $(this).css({'color' : '#fff', 'background' : colorData.normal});
         $(this).parent('li').attr('class', 'active').siblings('li').attr('class', 'default');
+        $(this).parent('li').siblings('li').find('a').css({'color' : '#000', 'background' : 'none'});
         $('#proTabCont' + (i + 1)).css('display', 'block').siblings('div').css('display', 'none');
+
+        $('#proTabHead').find('.default a').hover(function(){
+            $(this).css({'color' : '#fff', 'background' : colorData.normal});
+        },function(){
+            $(this).css({'color' : '#000', 'background' : 'none'});
+        });
+        $('#proTabHead').find('.active a').hover(function(){
+            $(this).css({'color' : '#fff', 'background' : colorData.normal});
+        },function(){
+            $(this).css({'color' : '#fff', 'background' : colorData.normal});
+        });
       }});
     });
     // tab切换 end
