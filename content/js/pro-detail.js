@@ -4,17 +4,17 @@ $(function(){
 
     // 主色调配置
     var colorData = {
-        'default' : '#123457',
+        'normal' : '#123457',
         'hover' : '#e69b02',
         'active' : '#e69b02'
     };
-    $('.nav, .shop-go, .btn-search').css('background', colorData.default);
-    $('.shop-go').css('border-color', colorData.default);
+    $('.nav, .shop-go, .btn-search').css('background', colorData.normal);
+    $('.shop-go').css('border-color', colorData.normal);
     $('.contact-online').css('background', colorData.active);
     $('.nav').find('li a').hover(function(){
         $(this).css('background', colorData.hover);
     },function(){
-        $(this).css('background', colorData.default);
+        $(this).css('background', colorData.normal);
     });
     $('.nav').find('.active a').hover(function(){
         $(this).css('background', colorData.hover);
@@ -24,25 +24,25 @@ $(function(){
     $('.shop-go, .contact-online, .btn-search').hover(function(){
         $(this).css({'color' : colorData.hover, 'border-color' : colorData.hover, 'background-color' : '#fff'});
     },function(){
-        $(this).css({'color' : '#fff', 'border-color' : colorData.default, 'background-color' : colorData.default});
+        $(this).css({'color' : '#fff', 'border-color' : colorData.normal, 'background-color' : colorData.normal});
     });
     $('.nav').find('.active a').css('background', colorData.active);
-    $('.shop-follow').css({'color' : colorData.default, 'border-color' : colorData.default});
+    $('.shop-follow').css({'color' : colorData.normal, 'border-color' : colorData.normal});
     $('.shop-follow').hover(function(){
         $(this).css({'color' : colorData.hover, 'border-color' : colorData.hover, 'background-color' : '#fff'});
     },function(){
-        $(this).css({'color' : colorData.default, 'border-color' : colorData.default, 'background-color' : '#fff'});
+        $(this).css({'color' : colorData.normal, 'border-color' : colorData.normal, 'background-color' : '#fff'});
     });
-    $('#proTabHead').find('.active').css({'color' : '#fff', 'background' : colorData.default});
+    $('#proTabHead').find('.active').css({'color' : '#fff', 'background' : colorData.normal});
     $('#proTabHead').find('li a').hover(function(){
-        $(this).css({'color' : '#fff', 'background' : colorData.default});
+        $(this).css({'color' : '#fff', 'background' : colorData.normal});
     },function(){
         $(this).css({'color' : '#000', 'background' : 'none'});
     });
     $('#proTabHead').find('.active a').hover(function(){
-        $(this).css({'color' : '#fff', 'background' : colorData.default});
+        $(this).css({'color' : '#fff', 'background' : colorData.normal});
     },function(){
-        $(this).css({'color' : '#fff', 'background' : colorData.default});
+        $(this).css({'color' : '#fff', 'background' : colorData.normal});
     });
 
 

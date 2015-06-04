@@ -675,12 +675,18 @@
 .center .selected-pro-wrap .pro-wrap .pro-top .tip-wrap .tit {
   float: left;
   margin-right: 5px;
+  line-height: 22px;
 }
 .center .selected-pro-wrap .pro-wrap .pro-top .tip-wrap .cont {
   float: left;
 }
 .center .selected-pro-wrap .pro-wrap .pro-top .tip-wrap .cont a {
   text-decoration: underline;
+}
+.center .selected-pro-wrap .pro-wrap .pro-top .tip-wrap .cont ul li {
+  border: 0;
+  padding: 0;
+  line-height: 22px;
 }
 .center .selected-pro-wrap .pro-wrap .pro-top .tip-wrap .left {
   float: left;

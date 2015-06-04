@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>俱合家具电商平台--确认订单</title>
+    <link rel="stylesheet" type="text/css" href="content/css/common.css">
+    <link rel="stylesheet" type="text/css" href="content/css/UIControl.css">
+    <link rel="stylesheet" type="text/css" href="content/css/order-confirm.css">
+    <script src="content/js/lib/jquery-1.8.1.js" type="text/javascript"></script>
+    <script src="content/js/lib/jquery.jqzoom-core.js" type="text/javascript"></script>
+    <script src="content/js/UIControl.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--顶部导航-->
+    <div class="top-nav">
+        <div class="top-nav-wrap">
+            <div class="welcome-wrap">
+                <span class="welcome">欢迎您来到俱合网！</span>
+                <a href="#" class="user-name">Miya</a>
+            </div>
+            <ul class="right-menu">
+                <li><a href="#">我的俱合</a><span class="line"></span></li>
+                <li><a href="#">订单管理</a><span class="line"></span></li>
+                <li><a href="#">购物车</a><span class="cart-num">5</span><span class="line"></span></li>
+                <li><a href="#">我的收藏</a><span class="line"></span></li>
+                <li><a href="#">帮助中心</a><span class="line"></span></li>
+                <li><a href="#">咨询俱合</a></li>
+            </ul> 
+        </div>
+    </div><!--顶部导航/-->
+    <!-- 头部 -->
+    <div class="header">
+        <div class="logo-wrap">
+            <a href="#" class="logo" title="俱合网"></a>
+            <div class="logo-tip"></div>
+        </div>
+        <div class="search-bar-wrap">
+            <input type="text" placeholder="热门： 办公桌子    椅子    酒店衣柜    隔断" class="input-txt" style="width:338px;">
+            <a href="#" class="sear-btn">搜产品</a>
+            <a href="#" class="sear-shop-btn">搜厂家</a>
+        </div>
+        <div class="right-infor">
+            <ul>
+                <li>
+                    <p class="num">7419<img src="content/images/arrow-up.png"/></p>
+                    <p>经销商数量</p>
+                </li>
+                <li>
+                    <p class="num">741309<img src="content/images/arrow-up.png"/></p>
+                    <p>商品数量</p>
+                </li>
+            </ul>
+        </div>
+        <div class="clear-no-height"></div>
+    </div><!-- 头部/ -->
+    <!--中间部分-->
+    <div class="center">
+        <div class="address-wrap-left">
+            <div class="address-top">
+                <h2>确认收货地址</h2>
+                <a href="#">管理收货地址</a>
+            </div>
+            <div class="add-cont">
+                <ul id="addreList">
+                    <li class="active">
+                        <span class="addre-icon"><img src="content/images/addre.png" /></span>
+                        <span class="addre-txt">寄送至</span>
+                        <span class="radio-icon sele-icon-on"></span>
+                        <span class="addre-infor">江苏省南京市市雨花台德盈国际广场市雨花台德盈国际广广场1栋&nbsp;&nbsp;刘亦菲&nbsp;&nbsp;收</span>
+                        <a class="opt-modify" href="#">修改本地址</a>
+                        <div class="clear-no-height"></div>
+                        <span class="tel">180 8888 8989</span>
+                        <span class="addre-defa">默认地址</span>
+                    </li>
+                    <li>
+                        <span class="addre-icon"><img src="content/images/addre.png" /></span>
+                        <span class="addre-txt">寄送至</span>
+                        <span class="radio-icon sele-icon-off"></span>
+                        <span class="addre-infor">江苏省南京市市雨花台德盈国际广场市雨花台德盈国际广广场1栋&nbsp;&nbsp;刘亦菲&nbsp;&nbsp;收</span>
+                        <a class="opt-modify" href="#">修改本地址</a>
+                        <span class="tel">180 8888 8989</span>
+                    </li>
+                    <li>
+                        <span class="addre-icon"><img src="content/images/addre.png" /></span>
+                        <span class="addre-txt">寄送至</span>
+                        <span class="radio-icon sele-icon-off"></span>
+                        <span class="addre-infor">江苏省南京市市雨花台德盈国际广场市雨花台德盈国际广广场1栋&nbsp;&nbsp;刘亦菲&nbsp;&nbsp;收</span>
+                        <a class="opt-modify" href="#">修改本地址</a>
+                        <span class="tel">180 8888 8989</span>
+                    </li>
+                </ul>
+                <a href="#" class="new-addr"><img src="content/images/add2.png" />使用新地址</a>
+            </div>
+        </div>
+        <div class="shop-infor-right">
+            <h2>优尚办公家具厂</h2>
+            <div class="cont">
+                <p class="time">
+                    <span class="tit">工作时间</span>
+                    <span class="txt">周一至周五</span>
+                    <span class="txt">08:00-16:00</span>
+                </p>
+                <div class="cont-wrap">
+                    <p class="contact">联系方式</p>
+                    <p class="tel-cont">QQ客服：<span>客服1</span><span>客服2</span></p>
+                    <p class="tel-cont">电话：<span>189 8888 8989</span></p>
+                    <p class="tel-cont">地址：<span>江苏省南京市中山南路12号</span></p>
+                </div>
+                <a href="#" class="btn-contact">在线联系</a>
+            </div>
+        </div>
+        <p class="clear-no-height"></p>
+        <div class="order-confirm">
+             <h2>确认订单信息</h2>
+             <div class="order-status-inner">
+                <div class="status1">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">确认订单</span>
+                </div>
+                <div class="status2">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">支付定金</span>
+                </div>
+                <div class="status3">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">生产完成</span>
+                </div>
+                <div class="status4">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">支付尾款</span>
+                </div>
+                <div class="status5">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">确认发货</span>
+                </div>
+                <div class="status6">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">确认收货</span>
+                </div>
+                <div class="status7">
+                    <span class="icon-num-off"></span>
+                    <span class="icon-num-on"></span>
+                    <span class="step-txt">结算</span>
+                </div>
+                <p class="clear-no-height"></p>
+            </div>
+        </div>
+        <div class="order-tit">
+            <div class="left">
+                <span>订单编号：FKHJI154915</span>
+                <span>订单时间：2015-05-06 12:25:56:12</span>
+            </div>
+            <div class="right">
+                工程名称：
+                <input type="text" class="input-txt" style="width:268px;height:20px; line-height:20px; font-size:12px" placeholder="请输入已有工程名称" />
+                <a href="#" class="btn-choose">选择已有工程</a>
+            </div>
+        </div>
+        <div class="list-header">
+            <div class="checkbox">
+                <input type="checkbox" />
+                <span>全选</span>
+            </div>
+            <div class="pro-infor">商品信息</div>
+            <div class="pro-price">单价（元）</div>
+            <div class="amount">数量</div>
+            <div class="status">状态</div>
+            <div class="param">参数</div>
+            <div class="option">操作</div>
+        </div>
+        <!-- 已选商品内容 -->
+        <div class="selected-pro-wrap">
+            <ul>
+                <li>
+                   <div class="pro-wrap">
+                        <div class="pro-top">
+                            <ul>
+                                <li>
+                                    <div class="checkbox-item">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="pro-img"><img src="content/images/image-pro/45.jpg"></div>
+                                    <div class="pro-infor">
+                                        <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                        <p class="pro-serv">
+                                            <img src="content/images/security.jpg">
+                                            <img src="content/images/security-day.jpg">
+                                            <img src="content/images/visa.jpg">
+                                        </p>
+                                    </div>
+                                    <div class="pro-price">
+                                        <p class="new">￥<i>888.00</i></p>
+                                    </div>
+                                    <div class="pro-amount">
+                                        <a href="javascript:;" id="minusNum" class="num-minus" title="减少">-</a>
+                                        <div class="num-detail" id="numVal">2</div>
+                                        <a href="javascript:;" id="addNum" class="num-add" title="增加">+</a>
+                                    </div>
+                                    <div class="pro-status">等待厂家确认订单</div>
+                                    <div class="pro-param">参数详情 <img src="content/images/arrow-down1.png"></div>
+                                    <div class="pro-option">
+                                        <a href="#">取消订单</a>
+                                    </div>
+                                    <p class="clear-no-height"></p>
+                                    <div class="pro-bottom" style="display:none">
+                                        <div class="pro-desc">
+                                            <h2>中班网椅：</h2>
+                                            <p>1.背采用高弹网M4系列，PP扶手；椅座为高弹性定型海棉，扪扪F1系列、T1系列、F2系列、F9系列布，为不同体型用户提供卓越的舒适度和支撑，让你办公更轻松；</p>
+                                            <p>2.H017-1升降底盘；黑85mm行程1#拉伸汽杆，C320尼龙脚，2.5寸PU带套轮，可有效防止刮伤地板及降低噪音；</p>
+                                            <p>3.适用于办公场合主管或 以上级别人员使用</p>
+                                        </div>
+                                        <div class="pro-size">
+                                            <h2>规格参数：</h2>
+                                            <ul>
+                                                <li>尺寸：66*62.5*56.5cm</li>
+                                                <li>张/箱：1pc/ctn</li>
+                                                <li>净重：11.5KG</li>
+                                                <li>毛重：12.8KG</li>
+                                                <li>20Q装柜：108pcs</li>
+                                                <li>40Q装柜：216pcs</li>
+                                                <li>40Q装柜：222pcs</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- 备注 -->
+                            <div class="tip-wrap">
+                                <div class="left">
+                                    <div class="tit">定制描述：</div>
+                                    <div class="cont">
+                                        <ul>
+                                            <li>1.颜色改成红色</li>
+                                            <li>2.颜色改成红色</li>   
+                                        </ul>
+                                    </div>
+                                    <div class="tit" style="margin-left:50px">附加：</div>
+                                    <div class="cont">
+                                        <ul>
+                                            <li><a href="#">关于办公室桌椅旋转高档皮质转椅的样.doc</a></li>
+                                            <li><a href="#">桌椅旋转高档皮质转椅的样.doc</a></li>   
+                                            <li><a href="#">关于办公转高档皮质转椅的样.doc</a></li>   
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tit">厂家描述：</div>
+                                    <div class="cont">
+                                        <ul>
+                                            <li>1.颜色改成红色</li>  
+                                        </ul>
+                                    </div>
+                                    <div class="tit" style="margin-left:50px">附加：</div>
+                                    <div class="cont">
+                                        <ul>
+                                            <li><a href="#">关于办公室桌椅旋转高档皮质转椅的样.doc</a></li>
+                                            <li><a href="#">桌椅旋转高档皮质转椅的样.doc</a></li>   
+                                            <li><a href="#">关于办公转高档皮质转椅的样.doc</a></li>   
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div><!-- 已选商品内容/ -->
+        <!-- 价格 -->
+        <div class="price-bottom">
+            <p class="all">小计：￥15000.00</p>
+            <p class="pay-fir">首付款金额：<span>￥4500.00</span></p>
+            <p class="bits">可用俱合币：2000（个）</p>
+            <p class="pay-time">交付时间：2015-02-06 12：25:20</p>
+        </div><!-- 价格/ -->
+        <div class="option-bottom">
+            <a href="#" class="btn-confirm">确认</a>
+        </div>
+        <div class="print-wrap">
+            <i class="icon-print"></i>
+            <div class="cont">
+                需要打印的内容
+            </div>
+        </div>
+    </div><!--中间部分/-->
+    <!--页尾-->
+    <div class="footer">
+        <div class="footer-inner">
+            <ul class="footer-serv-wrap">
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon fix"></div>
+                        <p class="txt">快修服务</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon return"></div>
+                        <p class="txt">7天无理由退货</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon private"></div>
+                        <p class="txt">私人定制</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon sale-serv"></div>
+                        <p class="txt">售后服务</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-serv-list">
+                        <div class="icon free-change"></div>
+                        <p class="txt">免费换货</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="footer-site-infor">
+                <div class="logo"></div>
+                <ul class="footer-list">
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>关于俱合</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>服务支持</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>帮助中心</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                    <li class="item">
+                        <h2>关注我们</h2>
+                        <a href="#">公司简介</a>
+                        <a href="#">了解我们</a>
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="line"></li>
+                </ul>
+                <div class="contact-wrap">
+                    <p class="tit">客服热线</p>
+                    <p class="phone">025-8598888</p>
+                    <p class="address">地址：</p>
+                    <p class="address">南京市中山南路大厦230-9</p>
+                </div>
+                <div class="code-wrap">
+                    <img src="content/images/code-footer.jpg" />
+                    <p>扫一扫，关注我们</p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            JUHE京ICP138940t69号 备100398509号  京公网按备4904805490号  京网文 93402980809 -8980号
+        </p>
+    </div><!--页尾/-->
+
+    <script type="text/javascript">
+        $(function(){
+            $('.pro-param').click(function(){
+                var selfObj = $(this),
+                    targetObj = selfObj.parent().find('.pro-bottom');
+               if(targetObj.is(':visible')){
+                    targetObj.css('display', 'none');
+                    selfObj.find('img').attr('src', 'content/images/arrow-down1.png');
+               }else if(targetObj.is(':hidden')){
+                    targetObj.css('display', 'block');
+                    selfObj.find('img').attr('src', 'content/images/arrow-up1.png');
+               }
+            });
+
+            $('#addreList li').click(function(){
+                $(this).addClass('active').siblings('li').removeClass('active');
+                $(this).find('.radio-icon').addClass('sele-icon-on').removeClass('sele-icon-off');
+                $(this).siblings('li').find('.radio-icon').addClass('sele-icon-off').removeClass('sele-icon-on');
+            });
+        });
+    </script>
+</body>
+</html>
