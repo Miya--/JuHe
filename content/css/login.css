@@ -33,6 +33,17 @@
   overflow: hidden;
   margin-bottom: 20px;
 }
+.center .right-log ul li .login-tit {
+  float: left;
+  color: #646464;
+  font-size: 18px;
+  font-weight: normal;
+}
+.center .right-log ul li .link-regist {
+  float: right;
+  color: #e69b02;
+  font-size: 14px;
+}
 .center .right-log ul li .input-wrap {
   border: 1px solid #e5e5e5;
   padding: 5px 20px;
@@ -91,14 +102,8 @@
   font-size: 12px;
   line-height: 22px;
 }
-.center .right-log ul li a.free-regist {
-  float: right;
-  color: #e69b02;
-  font-size: 14px;
-  line-height: 22px;
-}
 .center .right-log ul li a.forg-pwd:hover,
-.center .right-log ul li a.free-regist:hover {
+.center .right-log ul li a.link-regist:hover {
   text-decoration: underline;
 }
 .center .right-log ul li input.btn-login {

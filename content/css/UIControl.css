@@ -248,7 +248,7 @@
   color: #646464;
   overflow: hidden;
   zoom: 100%;
-  border: 1px solid #a3a3a3;
+  border: 1px solid #d9d9d9;
 }
 .combo-box .combo-box-top {
   padding: 0 4px;
@@ -344,7 +344,7 @@ label.r_on {
 }
 /* 文本框 */
 .input-txt {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #d9d9d9;
   height: 35px;
   line-height: 35px;
   padding: 2px 15px;
@@ -353,10 +353,10 @@ label.r_on {
   font-size: 14px;
 }
 .input-txtarea {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #d9d9d9;
   line-height: 18px;
   resize: none;
-  padding: 2px 15px;
+  padding: 5px 10px;
   outline: none;
   color: #a0a0a0;
   font-size: 12px;

@@ -1,0 +1,264 @@
+.top-nav {
+  background: #f7f7f7;
+}
+.top-nav .top-nav-wrap {
+  padding: 0;
+}
+.header {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 13px 0;
+  /* 搜索bar */
+}
+.header .logo-wrap {
+  float: left;
+}
+.header .logo-wrap .logo {
+  display: block;
+  width: 172px;
+  height: 65px;
+  float: left;
+  background: url(../images/logo2.png) no-repeat;
+}
+.header .logo-wrap .logo-tip {
+  width: 123px;
+  height: 34px;
+  margin: 23px 0 0 23px;
+  float: left;
+  background: url(../images/logo2-right.png) no-repeat;
+}
+.header .search-bar-wrap {
+  float: left;
+  margin-left: 56px;
+  margin-top: 16px;
+  border: 0;
+}
+.header .search-bar-wrap .input-txt {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  text-align: left;
+  color: #adadad;
+  border: 2px solid #e69b02;
+  border-right: 0;
+}
+.header .search-bar-wrap a.sear-btn,
+.header .search-bar-wrap a.sear-shop-btn {
+  display: block;
+  padding: 0 13px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  background: #e69b02;
+  color: #fff;
+  font-size: 18px;
+  border: 2px solid #e69b02;
+}
+.header .search-bar-wrap a.sear-btn:hover,
+.header .search-bar-wrap a.sear-shop-btn:hover {
+  background: #123457;
+  border-color: #123457;
+}
+.header .search-bar-wrap a.sear-shop-btn {
+  margin-left: 2px;
+}
+.header .right-infor {
+  float: right;
+}
+.header .right-infor ul li {
+  float: left;
+  display: block;
+  background: #f9f9f9;
+  width: 139px;
+  height: 50px;
+  margin-left: 2px;
+  margin-top: 9px;
+}
+.header .right-infor ul li p {
+  text-align: center;
+  font-size: 12px;
+  color: #a0a0a0;
+  font-family: "SimSun";
+}
+.header .right-infor ul li p.num {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: #ee4e4e;
+  margin-top: 4px;
+  line-height: 26px;
+}
+.header .right-infor ul li p.num img {
+  margin: -3px 0 0 5px;
+}
+.center {
+  width: 1240px;
+  margin: 20px auto 0;
+  clear: both;
+  overflow: hidden;
+  border-top: 1px solid #123457;
+}
+.order-cancel-center .order-confirm .status2,
+.order-cancel-center .order-confirm .status3,
+.order-cancel-center .order-confirm .status4 {
+  width: 350px;
+}
+.order-cancel-reason {
+  margin-top: 20px;
+}
+.order-cancel-reason ul li {
+  margin-bottom: 15px;
+  clear: both;
+}
+.order-cancel-reason ul li .tit {
+  float: left;
+  line-height: 30px;
+  width: 75px;
+  margin-right: 5px;
+}
+.order-cancel-reason ul li .cont {
+  float: left;
+}
+.order-cancel-reason .btn-confirm {
+  background: #123555;
+  color: #fff;
+  display: block;
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+.order-cancel-reason .btn-confirm:hover {
+  background: #204a71;
+}
+.order-confirm {
+  clear: both;
+  height: 122px;
+  padding: 13px;
+  border: 1px solid #d9d9d9;
+  background: #f2f2f2;
+  margin-top: 20px;
+}
+.order-confirm h2 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 35px;
+}
+.order-confirm .order-status-inner {
+  width: 932px;
+  margin: 35px auto;
+}
+.order-confirm .order-status-inner div {
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 155px;
+  height: 6px;
+  background: url(../images/line-bg.png) repeat-x;
+}
+.order-confirm .order-status-inner div span.icon-num-off {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: url(../images/order-status-off.png) no-repeat;
+}
+.order-confirm .order-status-inner div span.icon-num-on {
+  z-index: 2;
+  display: none;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: url(../images/order-status-on.png) no-repeat;
+}
+.order-confirm .order-status-inner div span.step-txt {
+  position: absolute;
+  top: 16px;
+  right: -40px;
+  display: block;
+  width: 60px;
+  color: #a0a0a0;
+  font-size: 12px;
+}
+.order-confirm .order-status-inner div.status1 {
+  width: 1px;
+  z-index: 7;
+}
+.order-confirm .order-status-inner div.status1 span.icon-num-off,
+.order-confirm .order-status-inner div.status1 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: 0 0;
+}
+.order-confirm .order-status-inner div.status2 {
+  z-index: 6;
+}
+.order-confirm .order-status-inner div.status2 span.icon-num-off,
+.order-confirm .order-status-inner div.status2 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: -121px 0;
+}
+.order-confirm .order-status-inner div.status3 {
+  z-index: 5;
+}
+.order-confirm .order-status-inner div.status3 span.icon-num-off,
+.order-confirm .order-status-inner div.status3 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: -243px 0;
+}
+.order-confirm .order-status-inner div.status4 {
+  z-index: 4;
+}
+.order-confirm .order-status-inner div.status4 span.icon-num-off,
+.order-confirm .order-status-inner div.status4 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: -364px 0;
+}
+.order-confirm .order-status-inner div.status5 {
+  z-index: 3;
+}
+.order-confirm .order-status-inner div.status5 span.icon-num-off,
+.order-confirm .order-status-inner div.status5 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: -485px 0;
+}
+.order-confirm .order-status-inner div.status6 {
+  z-index: 2;
+}
+.order-confirm .order-status-inner div.status6 span.icon-num-off,
+.order-confirm .order-status-inner div.status6 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: -606px 0;
+}
+.order-confirm .order-status-inner div.status7 {
+  z-index: 1;
+}
+.order-confirm .order-status-inner div.status7 span.icon-num-off,
+.order-confirm .order-status-inner div.status7 span.icon-num-on {
+  top: -12px;
+  right: -13px;
+  background-position: -728px 0;
+}
+.order-confirm .order-status-inner div.status7 span.step-txt {
+  right: -48px;
+}
+.order-confirm .order-status-inner div.active {
+  background: url(../images/line-on-bg.png) repeat-x;
+}
+.order-confirm .order-status-inner div.active span.step-txt {
+  color: #292929;
+}
+.order-confirm .order-status-inner div.active span.icon-num-off {
+  display: none;
+}
+.order-confirm .order-status-inner div.active span.icon-num-on {
+  display: block;
+}

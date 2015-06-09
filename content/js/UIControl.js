@@ -38,6 +38,11 @@
                 $default.width(comboBoxWidth);
                 $list.width(parseInt(comboBoxWidth) + 8);
             }
+            var comboBoxHeight = $(this).attr('height');
+            if(comboBoxHeight != null || comboBoxHeight != ''){
+                $default.css({'height' : comboBoxHeight+'px', 'line-height' : comboBoxHeight+'px'});
+                $list.css({'height' : comboBoxHeight+'px', 'line-height' : comboBoxHeight+'px'});
+            }
 
             // click 事件
             $default.click(function(event){
