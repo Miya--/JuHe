@@ -144,3 +144,61 @@
   font-weight: bold;
   font-size: 14px;
 }
+.company-block {
+  clear: both;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.company-block .left {
+  float: left;
+}
+.company-block .right {
+  float: left;
+}
+.intro1 .left {
+  width: 664px;
+  height: 275px;
+  padding: 55px 30px;
+  color: #646464;
+  font-size: 12px;
+  line-height: 22px;
+  border: 1px solid #e3e3e3;
+}
+.intro1 .left p {
+  text-indent: 2em;
+}
+.intro1 .right {
+  width: 514px;
+}
+.intro2 .left {
+  width: 557px;
+  height: 308px;
+}
+.intro2 .right {
+  width: 620px;
+  height: 256px;
+  padding: 25px 30px;
+  color: #646464;
+  font-size: 12px;
+  line-height: 22px;
+  border: 1px solid #e3e3e3;
+}
+.intro2 .right p {
+  text-indent: 2em;
+}
+.intro3 .left {
+  width: 890px;
+  height: 228px;
+  padding: 40px 36px;
+  color: #646464;
+  font-size: 12px;
+  line-height: 22px;
+  border: 1px solid #e3e3e3;
+}
+.intro3 .left p {
+  text-indent: 2em;
+}
+.intro3 .right {
+  width: 276px;
+  height: 256px;
+}
