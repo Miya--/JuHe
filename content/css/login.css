@@ -93,13 +93,16 @@
 .center .right-log ul li .change-code {
   float: right;
   color: #123457;
-  font-size: 14px;
-  line-height: 41px;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 3px;
 }
 .center .right-log ul li a.forg-pwd {
-  float: left;
+  position: absolute;
+  top: 12px;
+  right: 5px;
   color: #a0a0a0;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 22px;
 }
 .center .right-log ul li a.forg-pwd:hover,
