@@ -333,6 +333,7 @@
   text-decoration: underline;
 }
 .center .selected-pro-wrap .pro-wrap .pro-bottom {
+  clear: both;
   background: #fff;
   padding: 15px;
   color: #646464;
@@ -354,10 +355,13 @@
 .center .selected-pro-wrap .pro-wrap .pro-bottom ul li {
   float: left;
   width: 150px;
-  margin-right: 145px;
+  margin-right: 135px;
 }
 .center .selected-pro-wrap .pro-wrap .pro-bottom .pro-size {
   margin-top: 5px;
+}
+.center .selected-pro-wrap .pro-wrap .pro-bottom .pro-size ul li {
+  border: 0;
 }
 .center .selected-pro-wrap .pro-price-wrap {
   margin-top: 10px;
