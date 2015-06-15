@@ -341,3 +341,60 @@ ul.base-infor-wrap li .cont-right {
   font-size: 12px;
   color: #646464;
 }
+.atlas-list li {
+  float: left;
+  width: 305px;
+  min-height: 230px;
+  border: 1px solid #dedede;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+.atlas-list li img {
+  display: block;
+  margin: 40px auto;
+}
+.atlas-list li p.atlas-name {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #292929;
+  line-height: 36px;
+}
+.atlas-list li div.atlas-option {
+  padding: 0 20px;
+}
+.atlas-list li div.atlas-option p {
+  color: #a0a0a0;
+  font-size: 12px;
+  float: left;
+  line-height: 28px;
+}
+.atlas-list li div.atlas-option p span {
+  color: #383838;
+}
+.atlas-list li div.atlas-option a {
+  float: right;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid #a3a3a3;
+  color: #000;
+  background: #f4f4f4;
+}
+.atlas-list li div.atlas-option a:hover {
+  color: #fff;
+  background: #123457;
+  border-color: #123457;
+}
+.atlas-list li:hover {
+  border-width: 3px;
+  width: 301px;
+  min-height: 226px;
+}
+.atlas-list li:hover img {
+  margin: 38px auto 40px;
+}
+.atlas-list li:hover p.atlas-name {
+  padding: 0 18px;
+}
+.atlas-list li:hover div.atlas-option {
+  padding: 0 18px;
+}
