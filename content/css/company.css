@@ -324,3 +324,20 @@ ul.base-infor-wrap li .cont-right {
   height: 330px;
   width: 100%;
 }
+.table-infor {
+  width: 100%;
+}
+.table-infor th {
+  background: #dfdfdf;
+  line-height: 35px;
+  font-weight: normal;
+  color: #292929;
+}
+.table-infor td {
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+  color: #646464;
+}
