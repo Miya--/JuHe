@@ -94,92 +94,72 @@
                     }
                 }
             }
-            .tab-cont{ padding: 20px 0;
-                .list-header{ color: #292929; font-size: 14px; font-weight: bold; line-height: 30px; height: 30px; background: #dfdfdf;
-                    .checkbox{ width: 160px; float: left;
+            .tab-cont{
+                .orderlist{ font-size: 12px; width: 100%;
+                    thead th{color: #292929; font-size: 14px; font-weight: bold; line-height: 30px; height: 30px; background: #dfdfdf;}
+                    thead th.checkbox{ width: 142px;
                         input{ margin-left: 10px;}
                         span{ margin-left: 20px;}
                     }
-                    .pro-infor{ width: 170px; float: left; text-align: center;}
-                    .belong-shop{width: 160px; float: left; text-align: center;}
-                    .price{width: 80px; float: left; text-align: center;}
-                    .amount{width: 85px; float: left; text-align: center;}
-                    .status{width: 160px; float: left; text-align: center;}
-                    .option{width: 100px; float: left; text-align: center;}
-                    .option-other{width: 85px; float: left; text-align: center;}
-                }
-                ul.pro-list-wrap{ font-size: 12px;
-                    li{
-                        .order-infor-wrap{ background: #fff; height: 45px; line-height: 45px; color: #292929;
-                            .order-id{  width: 190px; float: left; text-align: left;
-                                input{ margin-right: 5px;}
-                                span{ color: #646464;}
-                            }
-                            .order-time{width: 230px; float: left; text-align: center;}
-                            .order-user{width: 130px; float: left; text-align: center;}
-                            .online-ser{width: 130px; float: left; text-align: center;
-                                img{ vertical-align: middle;}
-                            }
+                    tbody td{text-align: center;vertical-align:top;line-height: 22px;
+                        .line{background: #e4e4e4;height: 1px;}
+                    }
+                    tbody td.pro-price{color: #ee4e4e; font-size: 18px; font-weight: bold;}
+                    tbody td.pro-amount{color: #292929;font-size: 16px; font-weight: bold;}
+                    tbody td.order-infor-wrap{background: #fff; height: 45px; line-height: 45px; color: #292929;
+                        .order-id{  width: 190px; float: left; text-align: left;
+                            input{ margin-right: 5px;}
+                            span{ color: #646464;}
                         }
-                        .pro-list-wrap{ clear: both; background: #f2f2f2; padding: 15px;
-                            ul.pro-list{ padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px solid #e6e6e6;
-                                li{overflow: hidden;
-                                    .pro-img{ width: 190px; float: left;}
-                                    .pro-infor{ position: relative; width: 180px; height: 104px; float: left; text-align: left;
-                                        .pro-serv{ margin-top: 10px; position: absolute; bottom: 0;}
-                                        .pro-infor{ line-height: 22px;}
-                                    }
-                                    .shop-name{width: 90px; float: left; text-align: center; line-height: 26px;}
-                                    .pro-price{width: 100px; float: left; text-align: center; color: #ee4e4e; line-height: 26px; font-size: 18px; font-weight: bold;}
-                                    .pro-amount{width: 80px; float: left; text-align: center; color: #292929; line-height: 26px; font-size: 16px; font-weight: bold;}
-                                    .pro-status{width: 160px; float: left; text-align: center; line-height: 26px;}
-                                    .pro-option{width: 90px; float: left; text-align: center; line-height: 26px;
-                                        a{ display: block;}
-                                        a.btn-option{ border:1px solid #ee4e4e; color: #ee4e4e; height: 23px; line-height: 23px; width: 60px; margin:  5px auto; border-radius: 8px;}
-                                        a.btn-option:hover{ text-decoration: none; color: #b31414; border-color: #b31414;}
-                                    }
-                                    .pro-potion-other{width: 80px; float: left; text-align: center; line-height: 26px;}
-                                    a:hover{ text-decoration: underline;}
-                                }
+                        .order-time{width: 230px; float: left; text-align: center;}
+                        .order-user{width: 130px; float: left; text-align: center;}
+                        .online-ser{width: 130px; float: left; text-align: center;
+                            img{ vertical-align: middle;}
+                        }
+                    }
+                    tbody tr.pro-list-wrap{ background: #f2f2f2;
+                        td{padding: 15px 20px;}
+                        .pro-img{ width: 190px; float: left;}
+                        .pro-infor{ position: relative; width: 180px; float: left; text-align: left; height: 105px;
+                            .pro-serv{ margin-top: 10px; position: absolute; bottom: 0;}
+                        }
+                        .order-detail{color: #383838;line-height: 25px; text-align: left;
+                            span{color: #9a9a9a; margin-right:58px; margin-left: 10px;}
+                        }
+                    }
+                    tbody td.order-status-wrap{ margin-top: 50px; margin-bottom: 50px;background: #f2f2f2; padding-top: 12px;
+                        .order-status-inner{ width: 735px; height: 50px; margin: 0 auto;
+                            div{ position: relative; z-index: 1; float: left; width: 120px; height: 6px; background: url(../images/line-bg.png) repeat-x;
+                                span.icon-num-off{ z-index: 2; display: block; position: absolute; width: 26px; height: 26px; background: url(../images/order-status-off.png) no-repeat;}
+                                span.icon-num-on{z-index: 2;display: none; position: absolute; width: 26px; height: 26px; background: url(../images/order-status-on.png) no-repeat;}
+                                span.step-txt{ position: absolute; top: 16px; right: -40px; display: block; width: 60px; color: #a0a0a0; font-size: 12px;}
                             }
-                            .order-detail{ clear: both; color: #383838;
-                                span{ color: #9a9a9a; margin-right: 50px;}
+                            div.status1{ width: 1px;z-index: 7;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: 0 0; }
                             }
-                            .order-status-wrap{ margin-top: 50px; margin-bottom: 50px;
-                                .order-status-inner{ width: 735px; margin: 0 auto;
-                                    div{ position: relative; z-index: 1; float: left; width: 120px; height: 6px; background: url(../images/line-bg.png) repeat-x;
-                                        span.icon-num-off{ z-index: 2; display: block; position: absolute; width: 26px; height: 26px; background: url(../images/order-status-off.png) no-repeat;}
-                                        span.icon-num-on{z-index: 2;display: none; position: absolute; width: 26px; height: 26px; background: url(../images/order-status-on.png) no-repeat;}
-                                        span.step-txt{ position: absolute; top: 16px; right: -40px; display: block; width: 60px; color: #a0a0a0; font-size: 12px;}
-                                    }
-                                    div.status1{ width: 1px;z-index: 7;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: 0 0; }
-                                    }
-                                    div.status2{z-index: 6;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -121px 0; }
-                                    }
-                                    div.status3{z-index: 5;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -243px 0; }
-                                    }
-                                    div.status4{z-index: 4;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -364px 0; }
-                                    }
-                                    div.status5{z-index: 3;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -485px 0; }
-                                    }
-                                    div.status6{z-index: 2;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -606px 0; }
-                                    }
-                                    div.status7{ z-index: 1;
-                                        span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -728px 0; }
-                                        span.step-txt{ right: -48px;}
-                                    }
-                                    div.active{ background: url(../images/line-on-bg.png) repeat-x;
-                                        span.step-txt{ color: #292929;}
-                                        span.icon-num-off{ display: none;}
-                                        span.icon-num-on{ display: block;}
-                                    }
-                                }
+                            div.status2{z-index: 6;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -121px 0; }
+                            }
+                            div.status3{z-index: 5;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -243px 0; }
+                            }
+                            div.status4{z-index: 4;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -364px 0; }
+                            }
+                            div.status5{z-index: 3;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -485px 0; }
+                            }
+                            div.status6{z-index: 2;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -606px 0; }
+                            }
+                            div.status7{ z-index: 1;
+                                span.icon-num-off, span.icon-num-on{top: -12px; right: -13px; background-position: -728px 0; }
+                                span.step-txt{ right: -48px;}
+                            }
+                            div.active{ background: url(../images/line-on-bg.png) repeat-x;
+                                span.step-txt{ color: #292929;}
+                                span.icon-num-off{ display: none;}
+                                span.icon-num-on{ display: block;}
                             }
                         }
                     }
