@@ -83,7 +83,7 @@ iframe {
   clear: both;
 }
 .clear-no-height {
-  height: 0;
+  height: 1px;
   clear: both;
 }
 /* 浮动 */

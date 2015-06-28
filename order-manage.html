@@ -103,7 +103,7 @@
                                     <input type="checkbox" />
                                     <span>全选</span>
                                 </th>
-                                <th style="width:270px">商品信息</th>
+                                <th style="width:24%">商品信息</th>
                                 <th>所属供应商</th>
                                 <th>价格</th>
                                 <th>数量</th>
@@ -112,10 +112,11 @@
                                 <th>其他操作</th>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class="ordertit-tr">
                                     <td colspan="8" class="order-infor-wrap">
                                         <div class="order-id">
                                             <input type="checkbox" />
+                                            <span class="order-type">采</span>
                                             <span>订单编号：JFO158978954</span>
                                         </div>
                                         <div class="order-time">订单时间：2015-08-09 12:25:26</div>
@@ -124,7 +125,7 @@
                                         <div class="online-ser">在线客服：<img src="content/images/qq.jpg"></div>
                                     </td>
                                 </tr>
-                                <tr class="pro-list-wrap">
+                                <tr class="pro-list-wrap top">
                                     <td colspan="2" style="text-align:left">
                                         <div class="pro-img">
                                             <img src="content/images/image-pro/45.jpg">
@@ -145,10 +146,10 @@
                                     <td><a href="#">详情</a></td>
                                     <td><a href="#">关闭订单</a></td>
                                 </tr>
-                                <tr class="pro-list-wrap">
+                                <tr class="pro-list-wrap line">
                                     <td colspan="8" style="padding:0 20px;"><p class="line"></p></td>
                                 </tr>
-                                <tr class="pro-list-wrap">
+                                <tr class="pro-list-wrap orderinfor-tr">
                                     <td colspan="8" class="order-detail">
                                         工程：<span>工程工程工程工程工程工程工程工程工程工程工程工程工1</span>
                                         首付比例：<span>30%</span>
@@ -157,7 +158,7 @@
                                         物流联系方式：<span>139 8888 8989</span>
                                     </td>
                                 </tr> 
-                                <tr>
+                                <tr class="order-sta-tr">
                                     <td colspan="8" class="order-status-wrap">
                                         <div class="order-status-inner">
                                             <div class="status1">
@@ -199,10 +200,11 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="ordertit-tr">
                                     <td colspan="8" class="order-infor-wrap">
                                         <div class="order-id">
                                             <input type="checkbox" />
+                                            <span class="order-type">采</span>
                                             <span>订单编号：JFO158978954</span>
                                         </div>
                                         <div class="order-time">订单时间：2015-08-09 12:25:26</div>
@@ -211,7 +213,7 @@
                                         <div class="online-ser">在线客服：<img src="content/images/qq.jpg"></div>
                                     </td>
                                 </tr>
-                                <tr class="pro-list-wrap">
+                                <tr class="pro-list-wrap top">
                                     <td colspan="2" style="text-align:left">
                                         <div class="pro-img">
                                             <img src="content/images/image-pro/45.jpg">
@@ -229,13 +231,16 @@
                                     <td class="pro-price">￥888.00</td>
                                     <td class="pro-amount">2</td>
                                     <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;">等待厂家确认</td>
-                                    <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;"><a href="#">详情</a></td>
+                                    <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;">
+                                        <a href="#">详情</a>
+                                        <a href="#" class="btn-option">确认订单</a>
+                                    </td>
                                     <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;"><a href="#">关闭订单</a></td>
                                 </tr>
-                                 <tr class="pro-list-wrap">
+                                 <tr class="pro-list-wrap line">
                                     <td colspan="5" style="padding-left:20px;padding-right:0;"><p class="line"></p></td>
                                 </tr>
-                                <tr class="pro-list-wrap">
+                                <tr class="pro-list-wrap top">
                                     <td colspan="2" style="text-align:left">
                                         <div class="pro-img">
                                             <img src="content/images/image-pro/45.jpg">
@@ -257,7 +262,7 @@
                                 <tr class="pro-list-wrap">
                                     <td colspan="8" style="padding:0 20px;"><p class="line"></p></td>
                                 </tr>
-                                <tr class="pro-list-wrap">
+                                <tr class="pro-list-wrap orderinfor-tr">
                                     <td colspan="8" class="order-detail">
                                         工程：<span>工程工程工程工程工程工程工程工程工程工程工程工程工1</span>
                                         首付比例：<span>30%</span>
@@ -266,7 +271,7 @@
                                         物流联系方式：<span>139 8888 8989</span>
                                     </td>
                                 </tr> 
-                                <tr>
+                                <tr class="order-sta-tr">
                                     <td colspan="8" class="order-status-wrap">
                                         <div class="order-status-inner">
                                             <div class="status1">
@@ -308,149 +313,55 @@
                                         </div>
                                     </td>
                                 </tr>  
-                            </tbody>
-                        </table>
-                         <!--
-                        <div class="list-header">
-                            <div class="checkbox">
-                                <input type="checkbox" />
-                                <span>全选</span>
-                            </div>
-                            <div class="pro-infor">商品信息</div>
-                            <div class="belong-shop">所属供应商</div>
-                            <div class="price">价格</div>
-                            <div class="amount">数量</div>
-                            <div class="status">状态</div>
-                            <div class="option">操作</div>
-                            <div class="option-other">其他操作</div>
-                        </div>
-                       
-                        <ul class="pro-list-wrap">
-                            <li>
-                                <div class="order-infor-wrap">
-                                    <div class="order-id">
-                                        <input type="checkbox" />
-                                        <span>订单编号：JFO158978954</span>
-                                    </div>
-                                    <div class="order-time">订单时间：2015-08-09 12:25:26</div>
-                                    <div class="order-time">交货时间：2015-08-09 12:25:26</div>
-                                    <div class="order-user">跟单人：张三</div>
-                                    <div class="online-ser">在线客服：<img src="content/images/qq.jpg"></div>
-                                </div>
-                                <div class="pro-list-wrap">
-                                    <ul class="pro-list">
-                                        <li>
-                                            <div class="pro-img"><img src="content/images/image-pro/45.jpg"></div>
-                                            <div class="pro-infor">
-                                                <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
-                                                <p class="pro-serv">
-                                                    <img src="content/images/security.jpg">
-                                                    <img src="content/images/security-day.jpg">
-                                                    <img src="content/images/visa.jpg">
-                                                </p>
-                                            </div>
-                                            <div class="shop-name">优尚家具</div>
-                                            <div class="pro-price">￥888.00</div>
-                                            <div class="pro-amount">2</div>
-                                            <div class="pro-status">等待厂家确认</div>
-                                            <div class="pro-option">
-                                                <a href="#">详情</a>
-                                            </div>
-                                            <div class="pro-potion-other">
-                                                <a href="#">关闭订单</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="order-detail">
+                                <tr class="ordertit-tr">
+                                    <td colspan="8" class="order-infor-wrap">
+                                        <div class="order-id">
+                                            <input type="checkbox" />
+                                            <span class="order-type-t">团</span>
+                                            <span>订单编号：JFO158978954</span>
+                                        </div>
+                                        <div class="order-time">订单时间：2015-08-09 12:25:26</div>
+                                        <div class="order-time">交货时间：2015-08-09 12:25:26</div>
+                                    </td>
+                                </tr>
+                                <tr class="pro-list-wrap top">
+                                    <td colspan="2" style="text-align:left">
+                                        <div class="pro-img">
+                                            <img src="content/images/image-pro/45.jpg">
+                                        </div>
+                                        <div class="pro-infor">
+                                            <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                            <p class="pro-serv">
+                                                <img src="content/images/security.jpg">
+                                                <img src="content/images/security-day.jpg">
+                                                <img src="content/images/visa.jpg">
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>优尚家具</td>
+                                    <td class="pro-price">￥888.00</td>
+                                    <td class="pro-amount">2</td>
+                                    <td>等待厂家确认</td>
+                                    <td>
+                                        <a href="#">详情</a>
+                                        <a href="#" class="btn-option">支付货款</a>
+                                    </td>
+                                    <td><a href="#">关闭订单</a></td>
+                                </tr>
+                                <tr class="pro-list-wrap line">
+                                    <td colspan="8" style="padding:0 20px;"><p class="line"></p></td>
+                                </tr>
+                                <tr class="pro-list-wrap orderinfor-tr">
+                                    <td colspan="8" class="order-detail">
                                         工程：<span>工程工程工程工程工程工程工程工程工程工程工程工程工1</span>
                                         首付比例：<span>30%</span>
                                         物流名称：<span>申通</span>
                                         物流单号：<span>454859956956565</span>
                                         物流联系方式：<span>139 8888 8989</span>
-                                    </div>
-                                    <div class="order-status-wrap">
-                                        <div class="order-status-inner">
-                                            <div class="status1">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">确认订单</span>
-                                            </div>
-                                            <div class="status2">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">支付定金</span>
-                                            </div>
-                                            <div class="status3">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">生产完成</span>
-                                            </div>
-                                            <div class="status4">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">支付尾款</span>
-                                            </div>
-                                            <div class="status5">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">确认发货</span>
-                                            </div>
-                                            <div class="status6">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">确认收货</span>
-                                            </div>
-                                            <div class="status7">
-                                                <span class="icon-num-off"></span>
-                                                <span class="icon-num-on"></span>
-                                                <span class="step-txt">结算</span>
-                                            </div>
-                                            <p class="clear-no-height"></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="order-infor-wrap">
-                                    <div class="order-id">
-                                        <input type="checkbox" />
-                                        <span>订单编号：JFO158978954</span>
-                                    </div>
-                                    <div class="order-time">订单时间：2015-08-09 12:25:26</div>
-                                    <div class="order-time">交货时间：2015-08-09 12:25:26</div>
-                                    <div class="order-user">跟单人：张三</div>
-                                    <div class="online-ser">在线客服：<img src="content/images/qq.jpg"></div>
-                                </div>
-                                <div class="pro-list-wrap">
-                                    <ul class="pro-list">
-                                        <li>
-                                            <div class="pro-img"><img src="content/images/image-pro/45.jpg"></div>
-                                            <div class="pro-infor">
-                                                <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
-                                                <p class="pro-serv">
-                                                    <img src="content/images/security.jpg">
-                                                    <img src="content/images/security-day.jpg">
-                                                    <img src="content/images/visa.jpg">
-                                                </p>
-                                            </div>
-                                            <div class="shop-name">优尚家具</div>
-                                            <div class="pro-price">￥888.00</div>
-                                            <div class="pro-amount">2</div>
-                                            <div class="pro-status">等待厂家确认</div>
-                                            <div class="pro-option">
-                                                <a href="#">详情</a>
-                                                <a href="#" class="btn-option">支付定金</a>
-                                            </div>
-                                            <div class="pro-potion-other">
-                                                <a href="#">关闭订单</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="order-detail">
-                                        首付比例：<span>30%</span>
-                                        工程：<span>工程1</span>
-                                    </div>
-                                    <div class="order-status-wrap">
+                                    </td>
+                                </tr> 
+                                <tr class="order-sta-tr">
+                                    <td colspan="8" class="order-status-wrap">
                                         <div class="order-status-inner">
                                             <div class="status1 active">
                                                 <span class="icon-num-off"></span>
@@ -489,50 +400,256 @@
                                             </div>
                                             <p class="clear-no-height"></p>
                                         </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="order-infor-wrap">
-                                    <div class="order-id">
-                                        <input type="checkbox" />
-                                        <span>订单编号：JFO158978954</span>
-                                    </div>
-                                    <div class="order-time">订单时间：2015-08-09 12:25:26</div>
-                                    <div class="order-time">交货时间：2015-08-09 12:25:26</div>
-                                    <div class="order-user">跟单人：张三</div>
-                                    <div class="online-ser">在线客服：<img src="content/images/qq.jpg"></div>
-                                </div>
-                                <div class="pro-list-wrap">
-                                    <ul class="pro-list">
-                                        <li>
-                                            <div class="pro-img"><img src="content/images/image-pro/45.jpg"></div>
-                                            <div class="pro-infor">
-                                                <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
-                                                <p class="pro-serv">
-                                                    <img src="content/images/security.jpg">
-                                                    <img src="content/images/security-day.jpg">
-                                                    <img src="content/images/visa.jpg">
-                                                </p>
-                                            </div>
-                                            <div class="shop-name">优尚家具</div>
-                                            <div class="pro-price">￥888.00</div>
-                                            <div class="pro-amount">2</div>
-                                            <div class="pro-status">等待厂家确认</div>
-                                            <div class="pro-option">
-                                                <a href="#">详情</a>
-                                                <a href="#" class="btn-option">支付尾款</a>
-                                            </div>
-                                            <div class="pro-potion-other">
-                                                <a href="#">关闭订单</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="order-detail">
+                                    </td>
+                                </tr>  
+                                <tr class="ordertit-tr">
+                                    <td colspan="8" class="order-infor-wrap">
+                                        <div class="order-id">
+                                            <input type="checkbox" />
+                                            <span class="order-type-z">招</span>
+                                            <span>订单编号：JFO158978954</span>
+                                        </div>
+                                        <div class="order-time">订单时间：2015-08-09 12:25:26</div>
+                                        <div class="order-time">交货时间：2015-08-09 12:25:26</div>
+                                    </td>
+                                </tr>
+                                <tr class="pro-list-wrap top">
+                                    <td colspan="2" style="text-align:left">
+                                        <div class="pro-img">
+                                            <img src="content/images/image-pro/45.jpg">
+                                        </div>
+                                        <div class="pro-infor">
+                                            <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                            <p class="pro-serv">
+                                                <img src="content/images/security.jpg">
+                                                <img src="content/images/security-day.jpg">
+                                                <img src="content/images/visa.jpg">
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>优尚家具</td>
+                                    <td class="pro-price">￥888.00</td>
+                                    <td class="pro-amount">2</td>
+                                    <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;">等待厂家确认</td>
+                                    <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;">
+                                        <a href="#">详情</a>
+                                    </td>
+                                    <td rowspan="3" style="vertical-align:middle;border-left:1px solid #e4e4e4;"><a href="#">关闭订单</a></td>
+                                </tr>
+                                 <tr class="pro-list-wrap line">
+                                    <td colspan="5" style="padding-left:20px;padding-right:0;"><p class="line"></p></td>
+                                </tr>
+                                <tr class="pro-list-wrap top">
+                                    <td colspan="2" style="text-align:left">
+                                        <div class="pro-img">
+                                            <img src="content/images/image-pro/45.jpg">
+                                        </div>
+                                        <div class="pro-infor">
+                                            <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                            <p class="pro-serv">
+                                                <img src="content/images/security.jpg">
+                                                <img src="content/images/security-day.jpg">
+                                                <img src="content/images/visa.jpg">
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>优尚家具</td>
+                                    <td class="pro-price">￥888.00</td>
+                                    <td class="pro-amount">2</td>
+                                    
+                                </tr>
+                                <tr class="pro-list-wrap">
+                                    <td colspan="8" style="padding:0 20px;"><p class="line"></p></td>
+                                </tr>
+                                <tr class="pro-list-wrap orderinfor-tr">
+                                    <td colspan="8" class="order-detail">
+                                        工程：<span>工程工程工程工程工程工程工程工程工程工程工程工程工1</span>
                                         首付比例：<span>30%</span>
-                                        工程：<span>工程1</span>
-                                    </div>
-                                    <div class="order-status-wrap">
+                                        物流名称：<span>申通</span>
+                                        物流单号：<span>454859956956565</span>
+                                        物流联系方式：<span>139 8888 8989</span>
+                                    </td>
+                                </tr> 
+                                <tr class="order-sta-tr">
+                                    <td colspan="8" class="order-status-wrap">
+                                        <div class="order-status-inner">
+                                            <div class="status1 active">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">确认订单</span>
+                                            </div>
+                                            <div class="status2">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">支付定金</span>
+                                            </div>
+                                            <div class="status3">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">生产完成</span>
+                                            </div>
+                                            <div class="status4">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">支付尾款</span>
+                                            </div>
+                                            <div class="status5">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">确认发货</span>
+                                            </div>
+                                            <div class="status6">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">确认收货</span>
+                                            </div>
+                                            <div class="status7">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">结算</span>
+                                            </div>
+                                            <p class="clear-no-height"></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="ordertit-tr">
+                                    <td colspan="8" class="order-infor-wrap">
+                                        <div class="order-id">
+                                            <input type="checkbox" />
+                                            <span class="order-type-x">询</span>
+                                            <span>订单编号：JFO158978954</span>
+                                        </div>
+                                        <div class="order-time">订单时间：2015-08-09 12:25:26</div>
+                                        <div class="order-time">交货时间：2015-08-09 12:25:26</div>
+                                    </td>
+                                </tr>
+                                <tr class="pro-list-wrap top">
+                                    <td colspan="2" style="text-align:left">
+                                        <div class="pro-img">
+                                            <img src="content/images/image-pro/45.jpg">
+                                        </div>
+                                        <div class="pro-infor">
+                                            <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                            <p class="pro-serv">
+                                                <img src="content/images/security.jpg">
+                                                <img src="content/images/security-day.jpg">
+                                                <img src="content/images/visa.jpg">
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>优尚家具</td>
+                                    <td class="pro-price">￥888.00</td>
+                                    <td class="pro-amount">2</td>
+                                    <td>等待厂家确认</td>
+                                    <td>
+                                        <a href="#">详情</a>
+                                        <a href="#" class="btn-option">支付货款</a>
+                                    </td>
+                                    <td><a href="#">关闭订单</a></td>
+                                </tr>
+                                <tr class="pro-list-wrap line">
+                                    <td colspan="8" style="padding:0 20px;"><p class="line"></p></td>
+                                </tr>
+                                <tr class="pro-list-wrap orderinfor-tr">
+                                    <td colspan="8" class="order-detail">
+                                        工程：<span>工程工程工程工程工程工程工程工程工程工程工程工程工1</span>
+                                        首付比例：<span>30%</span>
+                                        物流名称：<span>申通</span>
+                                        物流单号：<span>454859956956565</span>
+                                        物流联系方式：<span>139 8888 8989</span>
+                                    </td>
+                                </tr> 
+                                <tr class="order-sta-tr">
+                                    <td colspan="8" class="order-status-wrap">
+                                        <div class="order-status-inner">
+                                            <div class="status1 active">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">确认订单</span>
+                                            </div>
+                                            <div class="status2">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">支付定金</span>
+                                            </div>
+                                            <div class="status3">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">生产完成</span>
+                                            </div>
+                                            <div class="status4">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">支付尾款</span>
+                                            </div>
+                                            <div class="status5">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">确认发货</span>
+                                            </div>
+                                            <div class="status6">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">确认收货</span>
+                                            </div>
+                                            <div class="status7">
+                                                <span class="icon-num-off"></span>
+                                                <span class="icon-num-on"></span>
+                                                <span class="step-txt">结算</span>
+                                            </div>
+                                            <p class="clear-no-height"></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="ordertit-tr">
+                                    <td colspan="8" class="order-infor-wrap">
+                                        <div class="order-id">
+                                            <input type="checkbox" />
+                                            <span class="order-type-d">订</span>
+                                            <span>订单编号：JFO158978954</span>
+                                        </div>
+                                        <div class="order-time">订单时间：2015-08-09 12:25:26</div>
+                                        <div class="order-time">交货时间：2015-08-09 12:25:26</div>
+                                    </td>
+                                </tr>
+                                <tr class="pro-list-wrap top">
+                                    <td colspan="2" style="text-align:left">
+                                        <div class="pro-img">
+                                            <img src="content/images/image-pro/45.jpg">
+                                        </div>
+                                        <div class="pro-infor">
+                                            <p class="pro-name">办公室桌椅 旋转高档 皮质旋转座椅 职工椅桌椅旋转高档</p>
+                                            <p class="pro-serv">
+                                                <img src="content/images/security.jpg">
+                                                <img src="content/images/security-day.jpg">
+                                                <img src="content/images/visa.jpg">
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>优尚家具</td>
+                                    <td class="pro-price">￥888.00</td>
+                                    <td class="pro-amount">2</td>
+                                    <td>等待厂家确认</td>
+                                    <td>
+                                        <a href="#">详情</a>
+                                        <a href="#" class="btn-option-l">确认收货并付款</a>
+                                    </td>
+                                    <td><a href="#">关闭订单</a></td>
+                                </tr>
+                                <tr class="pro-list-wrap line">
+                                    <td colspan="8" style="padding:0 20px;"><p class="line"></p></td>
+                                </tr>
+                                <tr class="pro-list-wrap orderinfor-tr">
+                                    <td colspan="8" class="order-detail">
+                                        工程：<span>工程工程工程工程工程工程工程工程工程工程工程工程工1</span>
+                                        首付比例：<span>30%</span>
+                                        物流名称：<span>申通</span>
+                                        物流单号：<span>454859956956565</span>
+                                        物流联系方式：<span>139 8888 8989</span>
+                                    </td>
+                                </tr> 
+                                <tr class="order-sta-tr">
+                                    <td colspan="8" class="order-status-wrap">
                                         <div class="order-status-inner">
                                             <div class="status1 active">
                                                 <span class="icon-num-off"></span>
@@ -549,12 +666,12 @@
                                                 <span class="icon-num-on"></span>
                                                 <span class="step-txt">生产完成</span>
                                             </div>
-                                            <div class="status4">
+                                            <div class="status4 active">
                                                 <span class="icon-num-off"></span>
                                                 <span class="icon-num-on"></span>
                                                 <span class="step-txt">支付尾款</span>
                                             </div>
-                                            <div class="status5">
+                                            <div class="status5 active">
                                                 <span class="icon-num-off"></span>
                                                 <span class="icon-num-on"></span>
                                                 <span class="step-txt">确认发货</span>
@@ -571,11 +688,11 @@
                                             </div>
                                             <p class="clear-no-height"></p>
                                         </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        -->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
                         <ul class="page-option-wrap">
                             <li style="line-height:24px;">
                                 <input type="checkbox" />全选
@@ -590,6 +707,23 @@
                                 <a href="#" class="btn-page-option">批量确认收货</a>
                             </li>
                         </ul>
+                        <!--分页-->
+                        <div class="page-nav">
+                            <a href="javascript:;" title="上一页" class="prev-page">上一页</a>
+                            <a href="javascript:;" title="1">1</a>
+                            <span>...</span>
+                            <a href="javascript:;" title="4">4</a>
+                            <a href="javascript:;" title="5">5</a>
+                            <a href="javascript:;" title="6">6</a>
+                            <a href="javascript:;" title="7" class="active">7</a>
+                            <a href="javascript:;" title="8">8</a>
+                            <a href="javascript:;" title="9">9</a>
+                            <a href="javascript:;" title="10">10</a>
+                            <span>...</span>
+                            <a href="javascript:;" title="99">99</a>
+                            <a href="javascript:;" title="100">100</a>
+                            <a href="javascript:;" title="下一页" class="next-page"></a>
+                        </div><!--分页/-->
                     </div>
                     <div id="orderTabCont2" style="display:none">
 

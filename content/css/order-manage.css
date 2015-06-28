@@ -64,7 +64,6 @@
   width: 1240px;
   margin: 50px auto;
   clear: both;
-  overflow: hidden;
 }
 .center .left-menu {
   width: 200px;
@@ -284,6 +283,7 @@
 }
 .center .right-cont .order-cont {
   margin-top: 30px;
+  padding-bottom: 60px;
 }
 .center .right-cont .order-cont .tab-header {
   border-bottom: 1px solid #e3e3e3;
@@ -326,7 +326,7 @@
   background: #dfdfdf;
 }
 .center .right-cont .order-cont .tab-cont .orderlist thead th.checkbox {
-  width: 142px;
+  width: 14%;
 }
 .center .right-cont .order-cont .tab-cont .orderlist thead th.checkbox input {
   margin-left: 10px;
@@ -360,12 +360,67 @@
   color: #292929;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id {
-  width: 190px;
+  width: 220px;
   float: left;
   text-align: left;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id input {
   margin-right: 5px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id span.order-type {
+  display: inline-block;
+  margin: 0 10px;
+  width: 19px;
+  height: 23px;
+  line-height: 18px;
+  text-align: center;
+  background: url(../images/icon-sale.png) no-repeat;
+  color: #fff;
+  font-size: 12px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id span.order-type-t {
+  display: inline-block;
+  margin: 0 10px;
+  width: 19px;
+  height: 23px;
+  line-height: 18px;
+  text-align: center;
+  background: url(../images/icon-sale2.png) no-repeat;
+  color: #fff;
+  font-size: 12px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id span.order-type-d {
+  display: inline-block;
+  margin: 0 10px;
+  width: 19px;
+  height: 23px;
+  line-height: 18px;
+  text-align: center;
+  background: url(../images/icon-sale3.png) no-repeat;
+  color: #fff;
+  font-size: 12px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id span.order-type-z {
+  display: inline-block;
+  margin: 0 10px;
+  width: 19px;
+  height: 23px;
+  line-height: 18px;
+  text-align: center;
+  background: url(../images/icon-sale4.png) no-repeat;
+  color: #fff;
+  font-size: 12px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id span.order-type-x {
+  display: inline-block;
+  margin: 0 10px;
+  width: 19px;
+  height: 23px;
+  line-height: 18px;
+  text-align: center;
+  background: url(../images/icon-sale5.png) no-repeat;
+  color: #fff;
+  font-size: 12px;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-infor-wrap .order-id span {
   color: #646464;
@@ -392,15 +447,15 @@
   background: #f2f2f2;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody tr.pro-list-wrap td {
-  padding: 15px 20px;
+  padding: 15px;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody tr.pro-list-wrap .pro-img {
-  width: 190px;
+  width: 45%;
   float: left;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody tr.pro-list-wrap .pro-infor {
   position: relative;
-  width: 180px;
+  width: 44%;
   float: left;
   text-align: left;
   height: 105px;
@@ -419,6 +474,22 @@
   color: #9a9a9a;
   margin-right: 58px;
   margin-left: 10px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody tr.ordertit-tr {
+  border-bottom: 1px solid #e3e3e3;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody tr.order-sta-tr {
+  border: 1px solid #e3e3e3;
+  border-top: 0;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody tr.pro-list-wrap.line,
+.center .right-cont .order-cont .tab-cont .orderlist tbody tr.pro-list-wrap.top {
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+}
+.center .right-cont .order-cont .tab-cont .orderlist tbody tr.pro-list-wrap.orderinfor-tr {
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-status-wrap {
   margin-top: 50px;
@@ -458,7 +529,7 @@
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-status-wrap .order-status-inner div span.step-txt {
   position: absolute;
   top: 16px;
-  right: -40px;
+  right: -30px;
   display: block;
   width: 60px;
   color: #a0a0a0;
@@ -529,7 +600,7 @@
   background-position: -728px 0;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-status-wrap .order-status-inner div.status7 span.step-txt {
-  right: -48px;
+  right: -30px;
 }
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-status-wrap .order-status-inner div.active {
   background: url(../images/line-on-bg.png) repeat-x;
@@ -543,9 +614,41 @@
 .center .right-cont .order-cont .tab-cont .orderlist tbody td.order-status-wrap .order-status-inner div.active span.icon-num-on {
   display: block;
 }
+.center .right-cont .order-cont .tab-cont .orderlist a.btn-option {
+  display: block;
+  background: #fff;
+  border: 1px solid #ee4e4e;
+  color: #ee4e4e;
+  height: 23px;
+  line-height: 23px;
+  width: 60px;
+  margin: 5px auto;
+  border-radius: 8px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist a.btn-option:hover {
+  text-decoration: none;
+  color: #b31414;
+  border-color: #b31414;
+}
+.center .right-cont .order-cont .tab-cont .orderlist a.btn-option-l {
+  display: block;
+  background: #fff;
+  border: 1px solid #ee4e4e;
+  color: #ee4e4e;
+  height: 23px;
+  line-height: 23px;
+  width: 100px;
+  margin: 5px auto;
+  border-radius: 8px;
+}
+.center .right-cont .order-cont .tab-cont .orderlist a.btn-option-l:hover {
+  text-decoration: none;
+  color: #b31414;
+  border-color: #b31414;
+}
 .center .right-cont .order-cont .tab-cont ul.page-option-wrap {
   overflow: hidden;
-  margin: 20px 0;
+  margin: 20px 0 30px;
 }
 .center .right-cont .order-cont .tab-cont ul.page-option-wrap li {
   float: left;
