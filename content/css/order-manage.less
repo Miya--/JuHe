@@ -1,70 +1,65 @@
-.top-nav{ width: 100%; background: #f7f7f7;
-    .top-nav-wrap{ width: 1240px; margin: 0 auto; padding-top: 10px; padding-bottom: 7px; height: 38px; line-height: 38px; color: #4a4a4a; font-size: 12px;
-        .logo{ display: block; float: left; width: 75px; height: 28px; background: url(../images/logo.png) no-repeat;}
-        .welcome-wrap{ color: #808080;
-            .input-txt{ border:0;}
-            .user-name{ color: #292929; margin-left: 5px;}
-        }
-        ul.right-menu{ float: right; color: #292929;
-        	li{ float:left; padding: 0 12px; position: relative; z-index: 1;
-        		.line{ position: absolute; right: 0; top: 15px; z-index: 2; background: #dfdfdf; height: 10px; width: 1px;}
-        		.cart-num{display: block; position: absolute; top: 4px; right: 3px; width: 13px; height: 13px; line-height: 13px; text-align: center; background: url(../images/circle.png) no-repeat; color: #fff;}
-        	}
-        }
-    } 
+.top-nav{ background: #f7f7f7;
+    .top-nav-wrap{ padding: 0;}
 }
-
-.center{ width:1240px; margin: 50px auto; clear: both;
+.header{ width: 1240px; margin: 0 auto; padding: 13px 0;
+    .logo-wrap{ float: left;
+        .logo{ display: block; width: 172px; height: 65px; float: left; background: url(../images/logo2.png) no-repeat; }
+        .logo-tip{width: 123px; height: 34px; margin:23px 0 0 23px; float: left; background: url(../images/logo2-right.png) no-repeat;}
+    }
+    /* 搜索bar */
+    .search-bar-wrap{  float: left; margin-left: 56px; margin-top: 16px; border:0;
+        .input-txt{ float: left;height: 28px;  line-height: 28px;text-align: left; color: #adadad;border: 2px solid #e69b02; border-right:0;}
+        a.sear-btn, a.sear-shop-btn{ display: block; padding: 0 13px; height:32px; line-height: 32px; float: left; background: #e69b02; color: #fff; font-size: 18px;border: 2px solid #e69b02;}
+        a.sear-btn:hover, a.sear-shop-btn:hover{ background: #123457; border-color:#123457;}
+        a.sear-shop-btn{ margin-left:2px;}
+    }
+    .right-infor{ float: right;
+        ul{
+            li{ float: left; display: block; background: #f9f9f9; width: 139px; height: 50px; margin-left: 2px; margin-top: 9px;
+                p{ text-align: center; font-size: 12px; color: #a0a0a0; font-family: "SimSun";}
+                p.num{ font-weight: bold; font-size: 24px; font-family: "Microsoft YaHei"; color: #ee4e4e; margin-top: 4px; line-height: 26px;
+                    img{ margin: -3px 0 0 5px;}
+                }
+            }
+        }
+    }
+}
+.center{ width:1240px; margin: 9px auto 0; padding-top: 29px; clear: both; overflow: hidden; border-top: 1px solid #123457;
     .left-menu{ width: 200px; float: left;
         ul{
             li{
                 a{ display: block; height: 40px; background: #fff; width: 150px; padding:0 25px; border:1px solid #e3e3e3; border-top: 0;
                     span.txt{ color: #a7a7a7; font-size: 15px; display: block; float: left; line-height: 40px;}
-                    span.icon-default{ display: block; float: left; background: url(../images/icon-left-menu.png) no-repeat;}
+                    span.icon-default{ display: block; float: left; background: url(../images/icon-left-menu1.png) no-repeat;}
                     span.icon-order{height: 16px; width: 17px; margin:13px 20px 0 0; background-position: -2px -19px;}
-                    span.icon-product{ width: 16px; height: 17px; margin:13px 20px 0 0; background-position: -3px -41px;}
+                    span.icon-price{ width: 17px; height: 17px; margin:13px 20px 0 0; background-position: -2px -40px;}
                     span.icon-project{width: 17px; height: 17px; margin:13px 20px 0 0; background-position: -2px -79px;}
                     span.icon-case{width: 16px; height: 17px; margin:13px 20px 0 0; background-position: -2px -119px;}
-                    span.icon-trust{width: 18px; height: 18px; margin:13px 20px 0 0; background-position: -1px -163px;}
-                    span.icon-engineer{width: 20px; height: 13px; margin:13px 20px 0 0; background-position: 0 -204px;}
-                    span.icon-finance{width: 15px; height: 18px; margin:13px 20px 0 0; background-position: -3px -240px;}
-                    span.icon-supplier{width: 18px; height: 14px; margin:13px 20px 0 0; background-position: -1px -281px;}
-                    span.icon-infor{width: 17px; height: 20px; margin:13px 20px 0 0; background-position: -2px -320px;}
+                    span.icon-servy{width: 19px; height: 17px; margin:13px 17px 0 0; background-position: 0 -160px;}
+                    span.icon-return{width: 19px; height: 19px; margin:13px 18px 0 0; background-position: 0 -199px;}
+                    span.icon-trust{width: 18px; height: 15px; margin:13px 19px 0 0; background-position: -1px -242px;}
+                    span.icon-engineer{width: 20px; height: 14px; margin:13px 16px 0 0; background-position: 0 -285px;}
+                    span.icon-finance{width: 15px; height: 18px; margin:13px 20px 0 0; background-position: -3px -321px;}
+                    span.icon-infor{width: 17px; height: 20px; margin:13px 20px 0 0; background-position: -2px -360px;}
                 }
                 a.fir{ border-radius: 6px 6px 0 0; border-top: 1px solid #e3e3e3;}
                 a.las{ border-radius: 0 0 6px 6px;}
                 a:hover{ background:#edac29; border:1px solid #edac29; border-top: 0;
                     span.txt{ color: #fff;}
-                    span.icon-order{background-position: -2px -2px;}
-                    span.icon-product{ background-position: -3px -60px;}
-                    span.icon-project{background-position: -2px -99px;}
-                    span.icon-case{ background-position: -2px -139px;}
-                    span.icon-trust{background-position: -1px -179px;}
-                    span.icon-engineer{background-position: 0 -220px;}
-                    span.icon-finance{ background-position: -3px -260px;}
-                    span.icon-supplier{background-position: -1px -298px;}
-                    span.icon-infor{background-position: -2px -343px;}
+                    span.icon-default{background-image: url(../images/icon-left-menu1-active.png);}
                 }
             }
             li.active{
                 a{ background: #e69b02; border:1px solid #e69b02; border-top: 0;
                     span.txt{ color: #fff;}
-                    span.icon-order{background-position: -2px -2px;}
-                    span.icon-product{ background-position: -3px -60px;}
-                    span.icon-project{background-position: -2px -99px;}
-                    span.icon-case{ background-position: -2px -139px;}
-                    span.icon-trust{background-position: -1px -179px;}
-                    span.icon-engineer{background-position: 0 -220px;}
-                    span.icon-finance{ background-position: -3px -260px;}
-                    span.icon-supplier{background-position: -1px -298px;}
-                    span.icon-infor{background-position: -2px -343px;}
+                    span.icon-default{background-image: url(../images/icon-left-menu1-active.png);}
                 }
                 a.fir{ border-radius: 6px 6px 0 0; border-top: 1px solid #e69b02;}
             }
         }
     }
     .right-cont{ float: right; margin-left: 40px; width: 1000px; min-height: 400px;
-        .search-wrap{ clear: both; margin-top: 22px; border:1px solid #e3e3e3; padding:15px 25px; line-height: 25px;
+        .search-wrap{ clear: both; border:1px solid #e3e3e3; padding:15px 25px; line-height: 25px;
             .item{ float: left; margin-right: 44px;
                 .tit{ color: #3e3e3e; font-size: 13px; float: left;}
                 .input-txt{ height: 25px; line-height: 25px;}
@@ -87,10 +82,10 @@
                         a{ display: block; line-height: 50px; padding: 0 30px; font-size: 16px; font-weight: bold; color: #292929;
                             span.total{ margin: 0 10px;}
                         }
-                        a:hover{ color: #ee4e4e; border-bottom:1px solid #ee4e4e;}
+                        a:hover{ color: #e69b02; border-bottom:1px solid #e69b02;}
                     }
                     li.active{
-                        a{ color: #ee4e4e; border-bottom:1px solid #ee4e4e;}
+                        a{ color: #e69b02; border-bottom:1px solid #e69b02;}
                     }
                 }
             }
@@ -191,5 +186,5 @@
 
 a.print{ display: block; background: #fff; border:1px solid #a3a3a3; color: #646464; font-size: 13px; height: 18px; line-height: 18px; padding:0 20px; border-radius: 4px;}
 a.print:hover{ color: #e69b02; border-color: #e69b02;}
-.btn-search{ color: #646464; border:1px solid #646464; border-radius: 6px; background: #fff; height: 35px; line-height: 35px; padding: 0 40px; font-size: 15px; margin-top: 20px; margin-left: 12px;}
+.btn-search{ color: #646464; border:1px solid #a3a3a3; background: #fff; height: 35px; line-height: 35px; padding: 0 40px; font-size: 15px; margin-top: 20px; margin-left: 12px;}
 .btn-search:hover{ background: #edac29; color: #fff; border-color: #edac29;}

@@ -1,69 +1,103 @@
 .top-nav {
-  width: 100%;
   background: #f7f7f7;
 }
 .top-nav .top-nav-wrap {
+  padding: 0;
+}
+.header {
   width: 1240px;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 7px;
-  height: 38px;
-  line-height: 38px;
-  color: #4a4a4a;
-  font-size: 12px;
+  padding: 13px 0;
+  /* 搜索bar */
 }
-.top-nav .top-nav-wrap .logo {
-  display: block;
+.header .logo-wrap {
   float: left;
-  width: 75px;
-  height: 28px;
-  background: url(../images/logo.png) no-repeat;
 }
-.top-nav .top-nav-wrap .welcome-wrap {
-  color: #808080;
+.header .logo-wrap .logo {
+  display: block;
+  width: 172px;
+  height: 65px;
+  float: left;
+  background: url(../images/logo2.png) no-repeat;
 }
-.top-nav .top-nav-wrap .welcome-wrap .input-txt {
+.header .logo-wrap .logo-tip {
+  width: 123px;
+  height: 34px;
+  margin: 23px 0 0 23px;
+  float: left;
+  background: url(../images/logo2-right.png) no-repeat;
+}
+.header .search-bar-wrap {
+  float: left;
+  margin-left: 56px;
+  margin-top: 16px;
   border: 0;
 }
-.top-nav .top-nav-wrap .welcome-wrap .user-name {
-  color: #292929;
-  margin-left: 5px;
-}
-.top-nav .top-nav-wrap ul.right-menu {
-  float: right;
-  color: #292929;
-}
-.top-nav .top-nav-wrap ul.right-menu li {
+.header .search-bar-wrap .input-txt {
   float: left;
-  padding: 0 12px;
-  position: relative;
-  z-index: 1;
+  height: 28px;
+  line-height: 28px;
+  text-align: left;
+  color: #adadad;
+  border: 2px solid #e69b02;
+  border-right: 0;
 }
-.top-nav .top-nav-wrap ul.right-menu li .line {
-  position: absolute;
-  right: 0;
-  top: 15px;
-  z-index: 2;
-  background: #dfdfdf;
-  height: 10px;
-  width: 1px;
-}
-.top-nav .top-nav-wrap ul.right-menu li .cart-num {
+.header .search-bar-wrap a.sear-btn,
+.header .search-bar-wrap a.sear-shop-btn {
   display: block;
-  position: absolute;
-  top: 4px;
-  right: 3px;
-  width: 13px;
-  height: 13px;
-  line-height: 13px;
-  text-align: center;
-  background: url(../images/circle.png) no-repeat;
+  padding: 0 13px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  background: #e69b02;
   color: #fff;
+  font-size: 18px;
+  border: 2px solid #e69b02;
+}
+.header .search-bar-wrap a.sear-btn:hover,
+.header .search-bar-wrap a.sear-shop-btn:hover {
+  background: #123457;
+  border-color: #123457;
+}
+.header .search-bar-wrap a.sear-shop-btn {
+  margin-left: 2px;
+}
+.header .right-infor {
+  float: right;
+}
+.header .right-infor ul li {
+  float: left;
+  display: block;
+  background: #f9f9f9;
+  width: 139px;
+  height: 50px;
+  margin-left: 2px;
+  margin-top: 9px;
+}
+.header .right-infor ul li p {
+  text-align: center;
+  font-size: 12px;
+  color: #a0a0a0;
+  font-family: "SimSun";
+}
+.header .right-infor ul li p.num {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: #ee4e4e;
+  margin-top: 4px;
+  line-height: 26px;
+}
+.header .right-infor ul li p.num img {
+  margin: -3px 0 0 5px;
 }
 .center {
   width: 1240px;
-  margin: 50px auto;
+  margin: 9px auto 0;
+  padding-top: 29px;
   clear: both;
+  overflow: hidden;
+  border-top: 1px solid #123457;
 }
 .center .left-menu {
   width: 200px;
@@ -88,7 +122,7 @@
 .center .left-menu ul li a span.icon-default {
   display: block;
   float: left;
-  background: url(../images/icon-left-menu.png) no-repeat;
+  background: url(../images/icon-left-menu1.png) no-repeat;
 }
 .center .left-menu ul li a span.icon-order {
   height: 16px;
@@ -96,11 +130,11 @@
   margin: 13px 20px 0 0;
   background-position: -2px -19px;
 }
-.center .left-menu ul li a span.icon-product {
-  width: 16px;
+.center .left-menu ul li a span.icon-price {
+  width: 17px;
   height: 17px;
   margin: 13px 20px 0 0;
-  background-position: -3px -41px;
+  background-position: -2px -40px;
 }
 .center .left-menu ul li a span.icon-project {
   width: 17px;
@@ -114,35 +148,41 @@
   margin: 13px 20px 0 0;
   background-position: -2px -119px;
 }
+.center .left-menu ul li a span.icon-servy {
+  width: 19px;
+  height: 17px;
+  margin: 13px 17px 0 0;
+  background-position: 0 -160px;
+}
+.center .left-menu ul li a span.icon-return {
+  width: 19px;
+  height: 19px;
+  margin: 13px 18px 0 0;
+  background-position: 0 -199px;
+}
 .center .left-menu ul li a span.icon-trust {
   width: 18px;
-  height: 18px;
-  margin: 13px 20px 0 0;
-  background-position: -1px -163px;
+  height: 15px;
+  margin: 13px 19px 0 0;
+  background-position: -1px -242px;
 }
 .center .left-menu ul li a span.icon-engineer {
   width: 20px;
-  height: 13px;
-  margin: 13px 20px 0 0;
-  background-position: 0 -204px;
+  height: 14px;
+  margin: 13px 16px 0 0;
+  background-position: 0 -285px;
 }
 .center .left-menu ul li a span.icon-finance {
   width: 15px;
   height: 18px;
   margin: 13px 20px 0 0;
-  background-position: -3px -240px;
-}
-.center .left-menu ul li a span.icon-supplier {
-  width: 18px;
-  height: 14px;
-  margin: 13px 20px 0 0;
-  background-position: -1px -281px;
+  background-position: -3px -321px;
 }
 .center .left-menu ul li a span.icon-infor {
   width: 17px;
   height: 20px;
   margin: 13px 20px 0 0;
-  background-position: -2px -320px;
+  background-position: -2px -360px;
 }
 .center .left-menu ul li a.fir {
   border-radius: 6px 6px 0 0;
@@ -159,32 +199,8 @@
 .center .left-menu ul li a:hover span.txt {
   color: #fff;
 }
-.center .left-menu ul li a:hover span.icon-order {
-  background-position: -2px -2px;
-}
-.center .left-menu ul li a:hover span.icon-product {
-  background-position: -3px -60px;
-}
-.center .left-menu ul li a:hover span.icon-project {
-  background-position: -2px -99px;
-}
-.center .left-menu ul li a:hover span.icon-case {
-  background-position: -2px -139px;
-}
-.center .left-menu ul li a:hover span.icon-trust {
-  background-position: -1px -179px;
-}
-.center .left-menu ul li a:hover span.icon-engineer {
-  background-position: 0 -220px;
-}
-.center .left-menu ul li a:hover span.icon-finance {
-  background-position: -3px -260px;
-}
-.center .left-menu ul li a:hover span.icon-supplier {
-  background-position: -1px -298px;
-}
-.center .left-menu ul li a:hover span.icon-infor {
-  background-position: -2px -343px;
+.center .left-menu ul li a:hover span.icon-default {
+  background-image: url(../images/icon-left-menu1-active.png);
 }
 .center .left-menu ul li.active a {
   background: #e69b02;
@@ -194,32 +210,8 @@
 .center .left-menu ul li.active a span.txt {
   color: #fff;
 }
-.center .left-menu ul li.active a span.icon-order {
-  background-position: -2px -2px;
-}
-.center .left-menu ul li.active a span.icon-product {
-  background-position: -3px -60px;
-}
-.center .left-menu ul li.active a span.icon-project {
-  background-position: -2px -99px;
-}
-.center .left-menu ul li.active a span.icon-case {
-  background-position: -2px -139px;
-}
-.center .left-menu ul li.active a span.icon-trust {
-  background-position: -1px -179px;
-}
-.center .left-menu ul li.active a span.icon-engineer {
-  background-position: 0 -220px;
-}
-.center .left-menu ul li.active a span.icon-finance {
-  background-position: -3px -260px;
-}
-.center .left-menu ul li.active a span.icon-supplier {
-  background-position: -1px -298px;
-}
-.center .left-menu ul li.active a span.icon-infor {
-  background-position: -2px -343px;
+.center .left-menu ul li.active a span.icon-default {
+  background-image: url(../images/icon-left-menu1-active.png);
 }
 .center .left-menu ul li.active a.fir {
   border-radius: 6px 6px 0 0;
@@ -233,7 +225,6 @@
 }
 .center .right-cont .search-wrap {
   clear: both;
-  margin-top: 22px;
   border: 1px solid #e3e3e3;
   padding: 15px 25px;
   line-height: 25px;
@@ -306,12 +297,12 @@
   margin: 0 10px;
 }
 .center .right-cont .order-cont .tab-header ul li a:hover {
-  color: #ee4e4e;
-  border-bottom: 1px solid #ee4e4e;
+  color: #e69b02;
+  border-bottom: 1px solid #e69b02;
 }
 .center .right-cont .order-cont .tab-header ul li.active a {
-  color: #ee4e4e;
-  border-bottom: 1px solid #ee4e4e;
+  color: #e69b02;
+  border-bottom: 1px solid #e69b02;
 }
 .center .right-cont .order-cont .tab-cont .orderlist {
   font-size: 12px;
@@ -690,8 +681,7 @@ a.print:hover {
 }
 .btn-search {
   color: #646464;
-  border: 1px solid #646464;
-  border-radius: 6px;
+  border: 1px solid #a3a3a3;
   background: #fff;
   height: 35px;
   line-height: 35px;
